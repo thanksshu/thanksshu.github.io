@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[MD语法笔记]]></title>
+    <url>%2F2018%2F12%2F27%2Fnote%2F</url>
+    <content type="text"><![CDATA[之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。 在这里简单记下MD的语法以备后续使用。 1[TOC] 根据标题生成目录，好像不支持。 123456# 这是一级标题## 这是二级标题### 这是三级标题#### 这是四级标题##### 这是五级标题###### 这是六级标题 这是一级标题这是二级标题这是三级标题这是四级标题这是五级标题这是六级标题 1234一级标题======================二级标题--------------------- 1234**这是加粗的文字** *这是倾斜的文字* ***这是斜体加粗的文字*** ~~这是加删除线的文字~~ 这是加粗的文字这是倾斜的文字这是斜体加粗的文字这是加删除线的文字 123&gt;这是引用的内容&gt;&gt;这是引用的内容&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容 这是引用的内容 这是引用的内容 这是引用的内容 12分割线们：三个或者三个以上的 - 或者 * 都可以。 示例？整篇文章都有啊？ 12345[超链接名1](超链接地址 "超链接title")&#123;:target="_blank"&#125;![图片alt](图片地址 "图片title")[[图片alt(图片地址)]](超链接地址)&#123;:target="_blank"&#125; 我的博客 好像不好用？ 第三条不支持~ 123456789101112131415- 列表内容+ 列表内容* 列表内容注意：- + * 跟内容之间有空格1. 列表内容2. 列表内容3. 列表内容注意：序号跟内容之间要有空格列表嵌套:上一级和下一级之间敲三个空格即可1. 嘤嘤嘤 1. 嘤嘤嘤 - Bonjour! Item 1 或者 + Item 1 或者 - Item 1 注意：- + * 跟内容之间有空格 列表内容 列表内容 列表内容 注意：序号跟内容之间要有空格 嘤嘤嘤 嘤嘤嘤 Bonjour! 注意：上一级和下一级之间有空格 12345表格的语句上一行必须为空行。|表头|表头|表头||-|:-:|-:| #这行分割表头与内容，标记居中、左、右。|居左|居中|居右||如果说话稍微多一点的话|就可以看出来差别了|我希望是这样没有问题的。| 表头 表头 表头 居左 居中 居右 如果说话稍微多一点的话 就可以看出来差别了 我希望是这样没有问题的。 12345678`代码内容`“```” #这为了显示，本没有引号代码块用两行“```”包起来，我想在这里是看不出来了……“```” #这为了显示，本没有引号 代码内容 123* [x] 选项一* [ ] 选项二 * [ ] 选项三 选项一 选项二 选项三 123456789101112131415“```flow” #这为了显示，本没有引号st=&gt;start: 开始op1=&gt;operation: 程序sub2=&gt;subroutine: 子程序cond3=&gt;condition: 是或否？io4=&gt;inputoutput: 输入e=&gt;end: 结束st-&gt;op1-&gt;cond4cond3(yes,up)-&gt;io4(down)-&gt;econd3(no,left)-&gt;sub2(right)-&gt;op“```” #这为了显示，本没有引号 好吧，不支持。 1&lt;xxx@xxx.com&gt; &#120;&#x78;&#120;&#x40;&#120;&#x78;&#x78;&#x2e;&#x63;&#x6f;&#x6d; 12345678Markdown: 轻量级文本标记语言，可以转换成html，pdf等格式代码块定义: 代码块定义…… var a = 10; #保持空一行与 递进缩进 Markdown: 轻量级文本标记语言，可以转换成html，pdf等格式 代码块定义: 代码块定义…… var a = 10; 123456“```sequence”A-&gt;&gt;B: 你好Note left of A: 我在左边 #注释方向，只有左右，没有上下Note right of B: 我在右边B--&gt;A: 很高兴认识你“```” 又不支持啊？！ 最后，一个Markdown小工具：Typora 整理就此结束，希望能帮到大家。]]></content>
+      <categories>
+        <category>实用文档</category>
+      </categories>
+      <tags>
+        <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[一个废人的脚本]]></title>
+    <url>%2F2018%2F11%2F13%2Funmauvais%2F</url>
+    <content type="text"><![CDATA[突然想起来要不要写个小脚本，然后就写了，这才发现我已经废了，花了数倍于往常的时间不说，效果还十分不尽人意。—我还是老老实实学法语吧… 脚本是一个摩尔斯电码发生器，可以通过调用手机摄像头工作，还是挺有意思的？ 图片：]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[命令行度盘使用简介]]></title>
+    <url>%2F2018%2F10%2F20%2Fdupan%2F</url>
+    <content type="text"><![CDATA[应朋友之请，在此更新关于手机使用命令行百度网盘的教程。 一、需要准备的东西 1.一颗耐心，用来仔细阅读博文；2.安装F-droid；3.下载BaiduPCS-Go；(详见下文) 二、准备所需软件 注意！以下命令及输入均以敲击Enter做确认！ 1.准备Termux：先安装好F-droid，并在内部搜索、安装“Termux”；启动Termux并等待初始化，直至初始界面出现；运行以下代码： export EDITOR=vi &amp;&amp; apt edit-sources输入“i”来进入编辑模式，将内部文字替换成： # The main termux repository:deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable maindeb [trusted=yes] http://termux.iikira.com stable main从屏幕最左侧向右侧滑动，打开面板：长按“KEYBORD”直到小键盘弹出：向左滑关闭面板；按下“ESC”，输入： :wq就会保存退出；接下来输入： apt update &amp;&amp; apt upgrade更新软件库和包；最后输入： termux-setup-storage并确认，使我们可以访问手机内存，即可将Termux配置完成。更多使用方法参见：Termux官网vi/vim的使用方法见：菜鸟教程:vi/vim 2.安装BaiduPCS-Go： apt install BaiduPCS-Go遇到提示则输入“Y”并Enter；等待安装完成…… 三、初始化软件 安装好之后先执行： alias dupan=’BaiduPCS-Go’来简化命令；再执行： dupan update更新到最新版本；之后是： dupan config set -appid 266719dupan config set -savedir /sdcard/BaiduNetdiskdupan config set -max_parallel=128dupan config set -cache_size=1024000分开执行三条指令以初始化客户端；紧接着： dupan login 按照提示登录：输入用户名或其他登录信息；输入密码；输入验证码：长按屏幕，弹出如上所示对话框，选择“Select URL”长按百度验证码的URL，在浏览器中就可以看到验证码，把它输入进去；可以说大功告成了。 四、基础使用 这里只介绍最基本的功能，剩余请向我提出更新要求或者看这里 以命令 dupan进入软件cli模式； 此时输入 help查看命令提示； 执行： web在浏览器中访问http://localhost:8080就可以使用（测试功能）了； 使用“CTRL+C”可以退出程序，或者在cli模式下输入 quit也可以； 在cli模式下（“#”后是注释）： cd 路径名 #进入指定目录ls #查看路径下的文件pwd #显示当前路径quota #查看网盘容量信息d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk内…… 文章到这里就完成了，作为我的第一篇干货，我会持续更新的，有任何问题请联系我或者在下方评论。]]></content>
+      <categories>
+        <category>实用文档</category>
+      </categories>
+      <tags>
+        <tag>更新</tag>
+        <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[辟邪]]></title>
+    <url>%2F2018%2F10%2F19%2Fpost%2F</url>
+    <content type="text"><![CDATA[辟邪用图片]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[更新并装备新功能]]></title>
+    <url>%2F2018%2F10%2F19%2Fpost20181019-1%2F</url>
+    <content type="text"><![CDATA[尝试了Livere作为以后的博客评论系统，希望大家多多灌水；为了让大家灌水更加方便，我还另外添加了“分享”按钮。PS:中间更新了一次，升级了内核，但是Bug略多，又辛苦地回滚到了旧版本。 以上都是实验性功能，有任何问题请使用QQ或者发送邮件联系我。]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>实验</tag>
+        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[新的尝试]]></title>
+    <url>%2F2018%2F10%2F17%2Fnewtry%2F</url>
+    <content type="text"><![CDATA[半夜（姑且算是）的更新，更新了谷歌 与必应 的站点验证，估计过几天就可以在搜索引擎中被搜到了；百度的验证比较特殊，复杂得可以，而且更新速度受到了一致差评——因此没有配置，所以不知道可不可以，但多半是凉了；验证时一同更改了博客的选项，写博文会轻松得多；图床稳定，继续使的用决定已下，将站内的全部图片都更新了；准备学习HTML CSS，但是在这之前：法语啊…… 顺手强烈推荐必应，国内能用的搜索引擎中为数不多好用的几个之一。]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>实验</tag>
+        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[更新啦！]]></title>
+    <url>%2F2018%2F10%2F15%2Fupdate%2F</url>
+    <content type="text"><![CDATA[更新博客：将图片换为图床链接，做测试，稳定则沿用。准备有空简单地学习一下HTML，用于博客页面美化。 我的图床网站：路过图床：shuthanks 希望有加快访问速度的功能。]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>实验</tag>
+        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[时隔多日的更新]]></title>
+    <url>%2F2018%2F10%2F07%2Fupdate%2F</url>
+    <content type="text"><![CDATA[更新了，不容易啊：修复了一些Bug，除此之外没有了。 重要的是这次更新在手机上完成了，不过因为懒就没有写更加复杂的博文，过程截图： 好了就这样——之后要考虑在这里放些为所欲为的东西了？]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>实验</tag>
+        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[关于]]></title>
+    <url>%2F2018%2F07%2F06%2Fabout%2F</url>
+    <content type="text"><![CDATA[关于这个博客：关于页面喜欢自己做一些东西，于是就有了这个博客，今后还要不断改进，感谢大家！]]></content>
+      <categories>
+        <category>未分类</category>
+      </categories>
+      <tags>
+        <tag>关于</tag>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[嗯……]]></title>
+    <url>%2F2018%2F07%2F05%2Feh%2F</url>
+    <content type="text"><![CDATA[@驴蹄子 嘿，能看到的话就好，代表网站在工作着。]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[嗯……]]></title>
+    <url>%2F2018%2F07%2F05%2Feh%2F</url>
+    <content type="text"><![CDATA[@驴蹄子 嘿，能看到的话就好，代表网站在工作着。]]></content>
+      <tags>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello,world!]]></title>
+    <url>%2F2018%2F07%2F05%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[看起来没有改进？其实是修改了部分内容。]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello,world!]]></title>
+    <url>%2F2018%2F07%2F05%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[看起来没有改进？其实是修改了部分内容。]]></content>
+  </entry>
+</search>
