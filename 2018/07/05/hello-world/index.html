@@ -88,25 +88,13 @@
   
 
   
-    
-      
-    
 
-    
-  
-
-  
-    
-      
-    
-
-    
   
 
   
     
     
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Arial:300,300italic,400,400italic,700,700italic|Shrikhand:300,300italic,400,400italic,700,700italic|Times New Roman:300,300italic,400,400italic,700,700italic|Arial:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Arial:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
   
 
 
@@ -148,7 +136,7 @@
     version: '7.1.2',
     sidebar: {"position":"left","width":240,"display":"post","offset":12,"scrollpercent":true,"onmobile":false},
     back2top: true,
-    back2top_sidebar: false,
+    back2top_sidebar: true,
     fancybox: true,
     fastclick: true,
     lazyload: true,
@@ -184,6 +172,8 @@
 <meta name="twitter:description" content="Hello,world!">
 
 
+
+  <link rel="alternate" href="/atom.xml" title="答谢韩书书的博客" type="application/atom+xml">
 
 
 
@@ -668,8 +658,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/07/05/eh/" rel="prev" title="嗯……">
-                嗯…… <i class="fa fa-chevron-right"></i>
+              <a href="/2018/07/05/hello-world/" rel="prev" title="Hello,world!">
+                Hello,world! <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -793,7 +783,24 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
+          
+            <div class="chat motion-element">
+              
+              
+                <a onclick="tidioChatApi.open();">
+              
+              <i class="fa fa-comment"></i>
+                  Chat
+                </a>
+            </div>
           
 
           
@@ -849,6 +856,13 @@
 
       
 
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -913,12 +927,13 @@
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
+    
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
     
 
     
@@ -1503,6 +1518,18 @@ if ($('body').find('pre.mermaid').length) {
   <script>
     
     
+      flOptions = {};
+      
+        flOptions.iconStyle = "box";
+      
+        flOptions.boxForm = "horizontal";
+      
+        flOptions.position = "middleRight";
+      
+        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
   </script>
 
 
@@ -1576,6 +1603,8 @@ if ($('body').find('pre.mermaid').length) {
   
 
   
+  <script src="//code.tidio.co/aue5qftkdmf7m74p0ogo9iymdt49jlj8.js"></script>
+
 
 </body>
 </html>
