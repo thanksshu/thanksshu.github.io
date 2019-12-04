@@ -1,9 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[MD语法笔记]]></title>
-    <url>%2F2018%2F12%2F27%2Fnote%2F</url>
-    <content type="text"><![CDATA[之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。 在这里简单记下MD的语法以备后续使用。 1[TOC] 根据标题生成目录，好像不支持。 123456# 这是一级标题## 这是二级标题### 这是三级标题#### 这是四级标题##### 这是五级标题###### 这是六级标题 这是一级标题这是二级标题这是三级标题这是四级标题这是五级标题这是六级标题 1234一级标题======================二级标题--------------------- 1234**这是加粗的文字** *这是倾斜的文字* ***这是斜体加粗的文字*** ~~这是加删除线的文字~~ 这是加粗的文字这是倾斜的文字这是斜体加粗的文字这是加删除线的文字 123&gt;这是引用的内容&gt;&gt;这是引用的内容&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容 这是引用的内容 这是引用的内容 这是引用的内容 12分割线们：三个或者三个以上的 - 或者 * 都可以。 示例？整篇文章都有啊？ 12345[超链接名1](超链接地址 "超链接title")&#123;:target="_blank"&#125;![图片alt](图片地址 "图片title")[[图片alt(图片地址)]](超链接地址)&#123;:target="_blank"&#125; 我的博客 好像不好用？ 第三条不支持~ 123456789101112131415- 列表内容+ 列表内容* 列表内容注意：- + * 跟内容之间有空格1. 列表内容2. 列表内容3. 列表内容注意：序号跟内容之间要有空格列表嵌套:上一级和下一级之间敲三个空格即可1. 嘤嘤嘤 1. 嘤嘤嘤 - Bonjour! Item 1 或者 + Item 1 或者 - Item 1 注意：- + * 跟内容之间有空格 列表内容 列表内容 列表内容 注意：序号跟内容之间要有空格 嘤嘤嘤 嘤嘤嘤 Bonjour! 注意：上一级和下一级之间有空格 12345表格的语句上一行必须为空行。|表头|表头|表头||-|:-:|-:| #这行分割表头与内容，标记居中、左、右。|居左|居中|居右||如果说话稍微多一点的话|就可以看出来差别了|我希望是这样没有问题的。| 表头 表头 表头 居左 居中 居右 如果说话稍微多一点的话 就可以看出来差别了 我希望是这样没有问题的。 12345678`代码内容`“```” #这为了显示，本没有引号代码块用两行“```”包起来，我想在这里是看不出来了……“```” #这为了显示，本没有引号 代码内容 123* [x] 选项一* [ ] 选项二 * [ ] 选项三 选项一 选项二 选项三 123456789101112131415“```flow” #这为了显示，本没有引号st=&gt;start: 开始op1=&gt;operation: 程序sub2=&gt;subroutine: 子程序cond3=&gt;condition: 是或否？io4=&gt;inputoutput: 输入e=&gt;end: 结束st-&gt;op1-&gt;cond4cond3(yes,up)-&gt;io4(down)-&gt;econd3(no,left)-&gt;sub2(right)-&gt;op“```” #这为了显示，本没有引号 好吧，不支持。 1&lt;xxx@xxx.com&gt; &#120;&#120;&#120;&#x40;&#x78;&#x78;&#120;&#46;&#99;&#x6f;&#109; 12345678Markdown: 轻量级文本标记语言，可以转换成html，pdf等格式代码块定义: 代码块定义…… var a = 10; #保持空一行与 递进缩进 Markdown: 轻量级文本标记语言，可以转换成html，pdf等格式 代码块定义: 代码块定义…… var a = 10; 123456“```sequence”A-&gt;&gt;B: 你好Note left of A: 我在左边 #注释方向，只有左右，没有上下Note right of B: 我在右边B--&gt;A: 很高兴认识你“```” 又不支持啊？！ 最后，一个Markdown小工具：Typora 整理就此结束，希望能帮到大家。]]></content>
+    <title>MD语法笔记</title>
+    <url>/2018/12/27/note/</url>
+    <content><![CDATA[<blockquote>
+<p>之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。</p>
+<blockquote>
+<p>在这里简单记下MD的语法以备后续使用。</p>
+</blockquote>
+</blockquote>
+<hr>
+<a id="more"></a>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[TOC]</span><br></pre></td></tr></table></figure>
+
+<p>根据标题生成目录，好像不支持。</p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 这是一级标题</span></span><br><span class="line"><span class="section">## 这是二级标题</span></span><br><span class="line"><span class="section">### 这是三级标题</span></span><br><span class="line"><span class="section">#### 这是四级标题</span></span><br><span class="line"><span class="section">##### 这是五级标题</span></span><br><span class="line"><span class="section">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">======================</span><br><span class="line">二级标题</span><br><span class="line">---------------------</span><br></pre></td></tr></table></figure>
+
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span>  </span><br><span class="line"><span class="emphasis">*这是倾斜的文字*</span>  </span><br><span class="line"><span class="strong">***这是斜体加粗的文字**</span>*  </span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+
+<p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是引用的内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">分割线们：</span><br><span class="line">三个或者三个以上的 - 或者 * 都可以。</span><br></pre></td></tr></table></figure>
+
+<p>示例？整篇文章都有啊？</p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">超链接名1</span>](<span class="link">超链接地址 "超链接title"</span>)&#123;:target="_blank"&#125;</span><br><span class="line"></span><br><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址 "图片title"</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">[图片alt(图片地址)</span>]](超链接地址)&#123;:target="_blank"&#125;</span><br></pre></td></tr></table></figure>
+
+<p><span class="exturl" data-url="aHR0cHM6Ly90aGFua3NzaHUuZ2l0aHViLmlvLw==" title="https://thanksshu.github.io/">我的博客<i class="fa fa-external-link"></i></span></p>
+<p><img data-src="https://s1.ax1x.com/2018/10/19/iwIUB9.jpg" alt="避邪" title="日常避邪"><br>好像不好用？</p>
+<p>第三条不支持~</p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line">注意：- + * 跟内容之间有空格</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">列表嵌套:</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br><span class="line"><span class="bullet">1. </span>嘤嘤嘤</span><br><span class="line">   1. 嘤嘤嘤</span><br><span class="line">   - Bonjour!</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Item 1</li>
+<li>或者 + Item 1</li>
+<li>或者 - Item 1</li>
+</ul>
+<p>注意：- + * 跟内容之间有空格</p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<p>注意：序号跟内容之间要有空格</p>
+<ol>
+<li>嘤嘤嘤<ol>
+<li>嘤嘤嘤</li>
+<li>Bonjour!</li>
+</ol>
+</li>
+</ol>
+<p>注意：上一级和下一级之间有空格</p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">表格的语句上一行必须为空行。</span><br><span class="line">|表头|表头|表头|</span><br><span class="line">|-|:-:|-:| #这行分割表头与内容，标记居中、左、右。</span><br><span class="line">|居左|居中|居右|</span><br><span class="line">|如果说话稍微多一点的话|就可以看出来差别了|我希望是这样没有问题的。|</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th align="center">表头</th>
+<th align="right">表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>居左</td>
+<td align="center">居中</td>
+<td align="right">居右</td>
+</tr>
+<tr>
+<td>如果说话稍微多一点的话</td>
+<td align="center">就可以看出来差别了</td>
+<td align="right">我希望是这样没有问题的。</td>
+</tr>
+</tbody></table>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`代码内容`</span></span><br><span class="line"></span><br><span class="line">“<span class="code">```” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">代码块用两行“```”包起来，</span></span><br><span class="line"><span class="code">我想在这里是看不出来了……</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
+
+<p><code>代码内容</code></p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">* </span>[x] 选项一</span><br><span class="line"><span class="bullet">* </span>[ ] 选项二  </span><br><span class="line"><span class="bullet">* </span>[ ] 选项三</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 选项一</li>
+<li><input disabled="" type="checkbox"> 选项二  </li>
+<li><input disabled="" type="checkbox"> 选项三</li>
+</ul>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">“<span class="code">```flow” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op1=&gt;operation: 程序</span></span><br><span class="line"><span class="code">sub2=&gt;subroutine: 子程序</span></span><br><span class="line"><span class="code">cond3=&gt;condition: 是或否？</span></span><br><span class="line"><span class="code">io4=&gt;inputoutput: 输入</span></span><br><span class="line"><span class="code">e=&gt;end: 结束</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st-&gt;op1-&gt;cond4</span></span><br><span class="line"><span class="code">cond3(yes,up)-&gt;io4(down)-&gt;e</span></span><br><span class="line"><span class="code">cond3(no,left)-&gt;sub2(right)-&gt;op</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
+
+<p>好吧，不支持。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">xxx@xxx.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDc4OyYjMTIwOyYjMTIwOyYjeDQwOyYjMTIwOyYjMTIwOyYjeDc4OyYjNDY7JiM5OTsmIzExMTsmI3g2ZDs=" title="mailto:&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;">&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Markdown</span><br><span class="line">:   轻量级文本标记语言，可以转换成html，pdf等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">:   代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
+
+<dl><dt>Markdown</dt><dd>轻量级文本标记语言，可以转换成html，pdf等格式</dd></dl><dl><dt>代码块定义</dt><dd>代码块定义……</dd></dl><pre><code>var a = 10;</code></pre><hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">“<span class="code">```sequence”</span></span><br><span class="line"><span class="code">A-&gt;&gt;B: 你好</span></span><br><span class="line"><span class="code">Note left of A: 我在左边 #注释方向，只有左右，没有上下</span></span><br><span class="line"><span class="code">Note right of B: 我在右边</span></span><br><span class="line"><span class="code">B--&gt;A: 很高兴认识你</span></span><br><span class="line"><span class="code">“```”</span></span><br></pre></td></tr></table></figure>
+
+<p>又不支持啊？！</p>
+<hr>
+<p>最后，一个Markdown小工具：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8v" title="https://typora.io/">Typora<i class="fa fa-external-link"></i></span></p>
+<hr>
+<p>整理就此结束，希望能帮到大家。</p>
+]]></content>
       <categories>
         <category>实用文档</category>
       </categories>
@@ -12,9 +139,12 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[一个废人的脚本]]></title>
-    <url>%2F2018%2F11%2F13%2Funmauvais%2F</url>
-    <content type="text"><![CDATA[突然想起来要不要写个小脚本，然后就写了，这才发现我已经废了，花了数倍于往常的时间不说，效果还十分不尽人意。—我还是老老实实学法语吧… 脚本是一个摩尔斯电码发生器，可以通过调用手机摄像头工作，还是挺有意思的？ 图片：]]></content>
+    <title>一个废人的脚本</title>
+    <url>/2018/11/13/unmauvais/</url>
+    <content><![CDATA[<p>突然想起来要不要写个小脚本，然后就写了，<br>这才发现我已经废了，花了数倍于往常的时间不说，效果还十分不尽人意。<br>—我还是老老实实学法语吧…</p>
+<p>脚本是一个摩尔斯电码发生器，可以通过调用手机摄像头工作，还是挺有意思的？</p>
+<p>图片：<br><img data-src="https://s1.ax1x.com/2018/12/09/F8682R.jpg" alt="F8682R.jpg" border="0" /></p>
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -23,9 +153,76 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[命令行度盘使用简介]]></title>
-    <url>%2F2018%2F10%2F20%2Fdupan%2F</url>
-    <content type="text"><![CDATA[应朋友之请，在此更新关于手机使用命令行百度网盘的教程。 一、需要准备的东西 1.一颗耐心，用来仔细阅读博文；2.安装F-droid；3.下载BaiduPCS-Go；(详见下文) 二、准备所需软件 注意！以下命令及输入均以敲击Enter做确认！ 1.准备Termux：先安装好F-droid，并在内部搜索、安装“Termux”；启动Termux并等待初始化，直至初始界面出现；运行以下代码： export EDITOR=vi &amp;&amp; apt edit-sources输入“i”来进入编辑模式，将内部文字替换成： # The main termux repository:deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable maindeb [trusted=yes] http://termux.iikira.com stable main从屏幕最左侧向右侧滑动，打开面板：长按“KEYBORD”直到小键盘弹出：向左滑关闭面板；按下“ESC”，输入： :wq就会保存退出；接下来输入： apt update &amp;&amp; apt upgrade更新软件库和包；最后输入： termux-setup-storage并确认，使我们可以访问手机内存，即可将Termux配置完成。更多使用方法参见：Termux官网vi/vim的使用方法见：菜鸟教程:vi/vim 2.安装BaiduPCS-Go： apt install BaiduPCS-Go遇到提示则输入“Y”并Enter；等待安装完成…… 三、初始化软件 安装好之后先执行： alias dupan=’BaiduPCS-Go’来简化命令；再执行： dupan update更新到最新版本；之后是： dupan config set -appid 266719dupan config set -savedir /sdcard/BaiduNetdiskdupan config set -max_parallel=128dupan config set -cache_size=1024000分开执行三条指令以初始化客户端；紧接着： dupan login 按照提示登录：输入用户名或其他登录信息；输入密码；输入验证码：长按屏幕，弹出如上所示对话框，选择“Select URL”长按百度验证码的URL，在浏览器中就可以看到验证码，把它输入进去；可以说大功告成了。 四、基础使用 这里只介绍最基本的功能，剩余请向我提出更新要求或者看这里 以命令 dupan进入软件cli模式； 此时输入 help查看命令提示； 执行： web在浏览器中访问http://localhost:8080就可以使用（测试功能）了； 使用“CTRL+C”可以退出程序，或者在cli模式下输入 quit也可以； 在cli模式下（“#”后是注释）： cd 路径名 #进入指定目录ls #查看路径下的文件pwd #显示当前路径quota #查看网盘容量信息d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk内…… 文章到这里就完成了，作为我的第一篇干货，我会持续更新的，有任何问题请联系我或者在下方评论。]]></content>
+    <title>命令行度盘使用简介</title>
+    <url>/2018/10/20/dupan/</url>
+    <content><![CDATA[<p>应朋友之请，在此更新关于手机使用命令行百度网盘的教程。</p>
+<a id="more"></a>
+<hr>
+一、需要准备的东西
+
+<p>1.一颗耐心，用来仔细阅读博文；<br>2.安装<span class="exturl" data-url="aHR0cHM6Ly9mLWRyb2lkLm9yZy96aF9IYW5zLw==" title="https://f-droid.org/zh_Hans/">F-droid<i class="fa fa-external-link"></i></span>；<br>3.下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>；<br>(详见下文)</p>
+<hr>
+二、准备所需软件
+
+<p>注意！以下命令及输入均以敲击Enter做确认！</p>
+<p>1.准备Termux：先安装好F-droid，并在内部搜索、安装“Termux”；<br>启动Termux并等待初始化，直至初始界面出现；<br>运行以下代码：</p>
+<pre><code>export EDITOR=vi && apt edit-sources</code></pre>
+<p>输入“i”来进入编辑模式，<br>将内部文字替换成：</p>
+<pre><code># The main termux repository:
+deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable main
+deb [trusted=yes] http://termux.iikira.com stable main</code></pre>
+<p>从屏幕最左侧向右侧滑动，打开面板：<br><img data-src="https://s1.ax1x.com/2018/10/20/i0x2ex.md.jpg"><br>长按“KEYBORD”直到小键盘弹出：<br><img data-src="https://s1.ax1x.com/2018/10/20/i0xcO1.jpg"><br>向左滑关闭面板；<br>按下“ESC”，输入：</p>
+<pre><code>:wq</code></pre>
+<p>就会保存退出；<br>接下来输入：</p>
+<pre><code>apt update && apt upgrade<code></pre>
+<p>更新软件库和包；<br>最后输入：</p>
+<pre><code>termux-setup-storage</code></pre>
+<p>并确认，使我们可以访问手机内存，<br>即可将Termux配置完成。<br>更多使用方法参见：<span class="exturl" data-url="aHR0cHM6Ly90ZXJtdXguY29tLw==" title="https://termux.com/">Termux官网<i class="fa fa-external-link"></i></span><br>vi/vim的使用方法见：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9saW51eC9saW51eC12aW0uaHRtbA==" title="https://www.runoob.com/linux/linux-vim.html">菜鸟教程:vi/vim<i class="fa fa-external-link"></i></span></p>
+<p>2.安装<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>：</p>
+<pre><code>apt install BaiduPCS-Go</code></pre>
+<p>遇到提示则输入“Y”并Enter；<br>等待安装完成……</p>
+<hr>
+三、初始化软件
+
+<p>安装好之后先执行：</p>
+<pre><code>alias dupan='BaiduPCS-Go'</code></pre>
+<p>来简化命令；<br>再执行：</p>
+<pre><code>dupan update</code></pre>
+<p>更新到最新版本；<br>之后是：</p>
+<pre><code>dupan config set -appid 266719
+dupan config set -savedir /sdcard/BaiduNetdisk
+dupan config set -max_parallel=128
+dupan config set -cache_size=1024000</code></pre>
+<p>分开执行三条指令以初始化客户端；<br>紧接着：</p>
+<pre><code>dupan login </code></pre>
+<p>按照提示登录：<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSHdP.jpg"><br>输入用户名或其他登录信息；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSoqI.jpg"><br>输入密码；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSbIf.jpg"><br>输入验证码：长按屏幕，弹出如上所示对话框，选择“Select URL”<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSLi8.jpg"><br>长按百度验证码的URL，在浏览器中就可以看到验证码，把它输入进去；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSOJS.jpg"><br>可以说大功告成了。</p>
+<hr>
+四、基础使用
+
+<p>这里只介绍最基本的功能，剩余请向我提出更新要求或者<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hby9ibG9iL21hc3Rlci9SRUFETUUubWQjJUU1JTkxJUJEJUU0JUJCJUE0JUU1JTg4JTk3JUU4JUExJUE4JUU1JThGJThBJUU4JUFGJUI0JUU2JTk4JThF" title="https://github.com/iikira/BaiduPCS-Go/blob/master/README.md#%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8%E5%8F%8A%E8%AF%B4%E6%98%8E">看这里<i class="fa fa-external-link"></i></span></p>
+<p>以命令</p>
+<pre><code>dupan</code></pre>
+<p>进入软件cli模式；</p>
+<p>此时输入</p>
+<pre><code>help</code></pre>
+<p>查看命令提示；</p>
+<p>执行：</p>
+<pre><code>web</code></pre>
+<p>在浏览器中访问<span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo4MDgw" title="http://localhost:8080">http://localhost:8080<i class="fa fa-external-link"></i></span>就可以使用（测试功能）了；</p>
+<p>使用“CTRL+C”可以退出程序，<br>或者在cli模式下输入</p>
+<pre><code>quit</code></pre>
+<p>也可以；</p>
+<p>在cli模式下（“#”后是注释）：</p>
+<pre><code>cd 路径名 #进入指定目录
+ls #查看路径下的文件
+pwd #显示当前路径
+quota #查看网盘容量信息
+d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk内</code></pre>
+<p>……</p>
+<hr>
+文章到这里就完成了，作为我的第一篇干货，我会持续更新的，有任何问题请联系我或者在下方评论。
+<hr>
+]]></content>
       <categories>
         <category>实用文档</category>
       </categories>
@@ -35,9 +232,12 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[辟邪]]></title>
-    <url>%2F2018%2F10%2F19%2Fpost%2F</url>
-    <content type="text"><![CDATA[辟邪用图片]]></content>
+    <title>辟邪</title>
+    <url>/2018/10/19/post/</url>
+    <content><![CDATA[<p style="text-align:center;">辟邪用图片</p>
+<a id="more"></a>
+<img data-src="https://s1.ax1x.com/2018/10/19/iwIUB9.jpg"/>
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -46,9 +246,10 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[更新并装备新功能]]></title>
-    <url>%2F2018%2F10%2F19%2Fpost20181019-1%2F</url>
-    <content type="text"><![CDATA[尝试了Livere作为以后的博客评论系统，希望大家多多灌水；为了让大家灌水更加方便，我还另外添加了“分享”按钮。PS:中间更新了一次，升级了内核，但是Bug略多，又辛苦地回滚到了旧版本。 以上都是实验性功能，有任何问题请使用QQ或者发送邮件联系我。]]></content>
+    <title>更新并装备新功能</title>
+    <url>/2018/10/19/post20181019-1/</url>
+    <content><![CDATA[<p>尝试了<a herf="https://www.livere.com/">Livere</a>作为以后的博客评论系统，希望大家多多灌水；<br>为了让大家灌水更加方便，我还另外添加了“分享”按钮。<br>PS:中间更新了一次，升级了内核，但是Bug略多，又辛苦地回滚到了旧版本。<br><HR><br>以上都是实验性功能，有任何问题请使用QQ或者<span class="exturl" data-url="bWFpbHRvOmhlemloYW5zaGFuZ3l1YW5AMTYzLmNvbT8=" title="mailto:hezihanshangyuan@163.com?">发送邮件<i class="fa fa-external-link"></i></span>联系我。</p>
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -58,9 +259,12 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[新的尝试]]></title>
-    <url>%2F2018%2F10%2F17%2Fnewtry%2F</url>
-    <content type="text"><![CDATA[半夜（姑且算是）的更新，更新了谷歌 与必应 的站点验证，估计过几天就可以在搜索引擎中被搜到了；百度的验证比较特殊，复杂得可以，而且更新速度受到了一致差评——因此没有配置，所以不知道可不可以，但多半是凉了；验证时一同更改了博客的选项，写博文会轻松得多；图床稳定，继续使的用决定已下，将站内的全部图片都更新了；准备学习HTML CSS，但是在这之前：法语啊…… 顺手强烈推荐必应，国内能用的搜索引擎中为数不多好用的几个之一。]]></content>
+    <title>新的尝试</title>
+    <url>/2018/10/17/newtry/</url>
+    <content><![CDATA[<p>半夜（姑且算是）的更新，更新了<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9uY3I=" title="https://www.google.com/ncr">谷歌<i class="fa fa-external-link"></i></span> 与<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmluZy5jb20v" title="https://www.bing.com/">必应<i class="fa fa-external-link"></i></span> 的站点验证，估计过几天就可以在搜索引擎中被搜到了；<br>百度的验证比较特殊，复杂得可以，而且更新速度受到了一致差评<br>——因此没有配置，所以不知道可不可以，但多半是凉了；<br>验证时一同更改了博客的选项，写博文会轻松得多；<br>图床稳定，继续使的用决定已下，将站内的全部图片都更新了；<br>准备学习HTML CSS，但是在这之前：法语啊……</p>
+<p style="font-family:arial;color:red;font-size:30px;">顺手强烈推荐必应，国内能用的搜索引擎中为数不多好用的几个之一。</p>
+ <img data-src="https://s1.ax1x.com/2018/10/17/idXDij.jpg" alt="更新截图"> 
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -70,9 +274,15 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[更新啦！]]></title>
-    <url>%2F2018%2F10%2F15%2Fupdate%2F</url>
-    <content type="text"><![CDATA[更新博客：将图片换为图床链接，做测试，稳定则沿用。准备有空简单地学习一下HTML，用于博客页面美化。 我的图床网站：路过图床：shuthanks 希望有加快访问速度的功能。]]></content>
+    <title>更新啦！</title>
+    <url>/2018/10/15/update/</url>
+    <content><![CDATA[<p>更新博客：将图片换为图床链接，做测试，稳定则沿用。<br>准备有空简单地学习一下HTML，用于博客页面美化。</p>
+<hr>
+我的图床网站：<span class="exturl" data-url="aHR0cHM6Ly9pbWdjaHIuY29tL3NodXRoYW5rcw==" title="https://imgchr.com/shuthanks">路过图床：shuthanks<i class="fa fa-external-link"></i></span>
+<img data-src="https://s1.ax1x.com/2018/10/15/iUjoBF.jpg"/>
+<hr>
+希望有加快访问速度的功能。
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -82,9 +292,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[时隔多日的更新]]></title>
-    <url>%2F2018%2F10%2F07%2Fupdate%2F</url>
-    <content type="text"><![CDATA[更新了，不容易啊：修复了一些Bug，除此之外没有了。 重要的是这次更新在手机上完成了，不过因为懒就没有写更加复杂的博文，过程截图： 好了就这样——之后要考虑在这里放些为所欲为的东西了？]]></content>
+    <title>时隔多日的更新</title>
+    <url>/2018/10/07/update/</url>
+    <content><![CDATA[<p>更新了，不容易啊：<br>修复了一些Bug，除此之外没有了。</p>
+<p>重要的是这次更新在手机上完成了，<br>不过因为懒就没有写更加复杂的博文，<br>过程截图：</p>
+<div align=center> <img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg"/> </div>
+
+<p>好了就这样——之后要考虑在这里放些为所欲为的东西了？</p>
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -94,9 +309,15 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[关于]]></title>
-    <url>%2F2018%2F07%2F06%2Fabout%2F</url>
-    <content type="text"><![CDATA[关于这个博客：关于页面喜欢自己做一些东西，于是就有了这个博客，今后还要不断改进，感谢大家！]]></content>
+    <title>关于</title>
+    <url>/2018/07/06/about/</url>
+    <content><![CDATA[<center>关于这个博客：</center>
+<center>[关于页面](https://thanksshu.github.io/about/)</center>
+<center>喜欢自己做一些东西，</center>
+<center>于是就有了这个博客，</center>
+<center>今后还要不断改进，</center>
+<center>感谢大家！</center>
+]]></content>
       <categories>
         <category>未分类</category>
       </categories>
@@ -106,26 +327,30 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[嗯……]]></title>
-    <url>%2F2018%2F07%2F05%2Feh%2F</url>
-    <content type="text"><![CDATA[@驴蹄子 嘿，能看到的话就好，代表网站在工作着。]]></content>
+    <title>嗯……</title>
+    <url>/2018/07/05/eh/</url>
+    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
+]]></content>
   </entry>
   <entry>
-    <title><![CDATA[嗯……]]></title>
-    <url>%2F2018%2F07%2F05%2Feh%2F</url>
-    <content type="text"><![CDATA[@驴蹄子 嘿，能看到的话就好，代表网站在工作着。]]></content>
+    <title>嗯……</title>
+    <url>/2018/07/05/eh/</url>
+    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
+]]></content>
       <tags>
         <tag>实验</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello,world!]]></title>
-    <url>%2F2018%2F07%2F05%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[看起来没有改进？其实是修改了部分内容。]]></content>
+    <title>Hello,world!</title>
+    <url>/2018/07/05/hello-world/</url>
+    <content><![CDATA[<p>看起来没有改进？其实是修改了部分内容。</p>
+]]></content>
   </entry>
   <entry>
-    <title><![CDATA[Hello,world!]]></title>
-    <url>%2F2018%2F07%2F05%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[看起来没有改进？其实是修改了部分内容。]]></content>
+    <title>Hello,world!</title>
+    <url>/2018/07/05/hello-world/</url>
+    <content><![CDATA[<p>看起来没有改进？其实是修改了部分内容。</p>
+]]></content>
   </entry>
 </search>
