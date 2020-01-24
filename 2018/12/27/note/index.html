@@ -29,7 +29,7 @@
     hostname: new URL('https://thanksshu.tk').hostname,
     root: '/',
     scheme: 'Pisces',
-    version: '7.6.0',
+    version: '7.7.0',
     exturl: true,
     sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
@@ -39,6 +39,7 @@
     mediumzoom: true,
     lazyload: true,
     pangu: true,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
     algolia: {
       appID: '',
       apiKey: '',
@@ -73,9 +74,7 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: true,
-    isPage: false,
-    isArchive: false
+    isPost: true
   };
 </script>
 
@@ -137,7 +136,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <h1 class="site-subtitle" itemprop="description">Thanks_Shu's Blog</h1>
+        <h1 class="site-subtitle" itemprop="description">Blog de Thanksshu</h1>
       
   </div>
 
@@ -246,7 +245,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Thanks_Shu">
+      <meta itemprop="name" content="thanksshu">
       <meta itemprop="description" content="">
     </span>
 
@@ -419,7 +418,7 @@
 <p>好吧，不支持。</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">xxx@xxx.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDc4OyYjMTIwOyYjMTIwOyYjeDQwOyYjMTIwOyYjMTIwOyYjeDc4OyYjNDY7JiM5OTsmIzExMTsmI3g2ZDs=" title="mailto:&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;">&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjMTIwOyYjMTIwOyYjeDc4OyYjNjQ7JiN4Nzg7JiN4Nzg7JiN4Nzg7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=" title="mailto:&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
 <hr>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Markdown</span><br><span class="line">:   轻量级文本标记语言，可以转换成html，pdf等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">:   代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
 
@@ -468,6 +467,28 @@
           
     <div class="comments" id="gitalk-container"></div>
 
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
         </div>
           
   
@@ -497,9 +518,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Thanks_Shu"
+    <img class="site-author-image" itemprop="image" alt="thanksshu"
       src="/images/avatar.gif">
-  <p class="site-author-name" itemprop="name">Thanks_Shu</p>
+  <p class="site-author-name" itemprop="name">thanksshu</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -534,7 +555,7 @@
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
-    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9udWxs"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
   </div>
 
 
@@ -556,11 +577,11 @@
 <div class="copyright">
   
   &copy; 2018 – 
-  <span itemprop="copyrightYear">2019</span>
+  <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Thanks_Shu</span>
+  <span class="author" itemprop="copyrightHolder">thanksshu</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
@@ -639,7 +660,7 @@ window.addEventListener('pjax:success', () => {
       script.async = false;
     }
     if (element.getAttribute('pjax') !== null) {
-      element.setAttribute('pjax', '');
+      script.setAttribute('pjax', '');
     }
     if (code !== '') {
       script.appendChild(document.createTextNode(code));
@@ -651,6 +672,7 @@ window.addEventListener('pjax:success', () => {
   if (CONFIG.motion.enable) {
     NexT.motion.integrator
       .init()
+      .add(NexT.motion.middleWares.subMenu)
       .add(NexT.motion.middleWares.postList)
       .bootstrap();
   }
@@ -710,6 +732,7 @@ if (document.querySelectorAll('pre.mermaid').length) {
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 <script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
       clientID: '64f1dd85ac0a18fbef4a',
@@ -719,10 +742,11 @@ if (document.querySelectorAll('pre.mermaid').length) {
       admin: ['thanksshu'],
       id: '5b80c1a6b7de195aac73f25a2c083280',
         language: '',
-      distractionFreeMode: 'true'
+      distractionFreeMode: true
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
+});
 </script>
 
     </div>

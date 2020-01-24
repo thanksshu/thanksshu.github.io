@@ -118,7 +118,7 @@
 <p>好吧，不支持。</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">xxx@xxx.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDc4OyYjMTIwOyYjMTIwOyYjeDQwOyYjMTIwOyYjMTIwOyYjeDc4OyYjNDY7JiM5OTsmIzExMTsmI3g2ZDs=" title="mailto:&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;">&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjMTIwOyYjMTIwOyYjeDc4OyYjNjQ7JiN4Nzg7JiN4Nzg7JiN4Nzg7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=" title="mailto:&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
 <hr>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Markdown</span><br><span class="line">:   轻量级文本标记语言，可以转换成html，pdf等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">:   代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
 
