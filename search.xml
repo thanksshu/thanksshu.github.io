@@ -59,10 +59,10 @@
         <category>实用</category>
       </categories>
       <tags>
-        <tag>Gmail</tag>
-        <tag>UTC</tag>
         <tag>Android</tag>
+        <tag>UTC</tag>
         <tag>Mail</tag>
+        <tag>Gmail</tag>
       </tags>
   </entry>
   <entry>
@@ -265,8 +265,8 @@ d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk�
         <category>实用</category>
       </categories>
       <tags>
-        <tag>百度云</tag>
         <tag>Termux</tag>
+        <tag>百度云</tag>
       </tags>
   </entry>
   <entry>
@@ -284,8 +284,8 @@ d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk�
 <p>好了，就这样。</p>
 ]]></content>
       <tags>
-        <tag>Termux</tag>
         <tag>Android</tag>
+        <tag>Termux</tag>
       </tags>
   </entry>
   <entry>

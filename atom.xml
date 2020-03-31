@@ -35,13 +35,13 @@
       <category term="实用" scheme="https://thanksshu.tk/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
-      <category term="Gmail" scheme="https://thanksshu.tk/tags/Gmail/"/>
+      <category term="Android" scheme="https://thanksshu.tk/tags/Android/"/>
     
       <category term="UTC" scheme="https://thanksshu.tk/tags/UTC/"/>
     
-      <category term="Android" scheme="https://thanksshu.tk/tags/Android/"/>
-    
       <category term="Mail" scheme="https://thanksshu.tk/tags/Mail/"/>
+    
+      <category term="Gmail" scheme="https://thanksshu.tk/tags/Gmail/"/>
     
   </entry>
   
@@ -95,9 +95,9 @@
       <category term="实用" scheme="https://thanksshu.tk/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
-      <category term="百度云" scheme="https://thanksshu.tk/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/"/>
-    
       <category term="Termux" scheme="https://thanksshu.tk/tags/Termux/"/>
+    
+      <category term="百度云" scheme="https://thanksshu.tk/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/"/>
     
   </entry>
   
@@ -123,9 +123,9 @@
     
     
     
-      <category term="Termux" scheme="https://thanksshu.tk/tags/Termux/"/>
-    
       <category term="Android" scheme="https://thanksshu.tk/tags/Android/"/>
+    
+      <category term="Termux" scheme="https://thanksshu.tk/tags/Termux/"/>
     
   </entry>
   
