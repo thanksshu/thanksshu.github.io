@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thanksshu.tk/"/>
-  <updated>2020-03-31T11:06:26.061Z</updated>
+  <updated>2020-03-31T11:41:33.070Z</updated>
   <id>https://thanksshu.tk/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://thanksshu.tk/2020/03/31/utcmail/"/>
     <id>https://thanksshu.tk/2020/03/31/utcmail/</id>
     <published>2020-03-31T08:09:15.000Z</published>
-    <updated>2020-03-31T11:06:26.061Z</updated>
+    <updated>2020-03-31T11:41:33.070Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="UTC-邮件客户端配置-安卓-Gmail"><a href="#UTC-邮件客户端配置-安卓-Gmail" class="headerlink" title="UTC 邮件客户端配置 - 安卓 - Gmail"></a>UTC 邮件客户端配置 - 安卓 - Gmail</h1><ol><li>打开Gmail，点击右上角的头像以打开账户管理；</li></ol><p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p><hr><ol start="2"><li>选择“添加其他账号”； </li></ol><p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p><hr><ol start="3"><li>选择“其他“；</li></ol><p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p><hr><ol start="4"><li>填入UTC邮箱地址；</li></ol><p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p><hr><ol start="5"><li>在类型中选择IMAP；</li></ol><p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p><hr><ol start="6"><li>填入UTC邮箱密码；</li></ol><p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p><hr><ol start="7"><li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li></ol><p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p><hr><ol start="8"><li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li></ol><p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p><hr><ol start="9"><li>剩余为用户自定义设置，根据自己喜好填写即可；</li></ol><p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p><hr><ol start="10"><li>教程至此结束，如有疑惑可以在评论区提出。</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="UTC-邮件客户端配置-安卓-Gmail"><a href="#UTC-邮件客户端配置-安卓-Gmail" class="headerlink" title="UTC 邮件客户端配置 - 安卓 - Gmail"></a>UTC 邮件客户端配置 - 安卓 - Gmail</h1><a id="more"></a><ol><li>打开Gmail，点击右上角的头像以打开账户管理；</li></ol><p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p><hr><ol start="2"><li>选择“添加其他账号”； </li></ol><p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p><hr><ol start="3"><li>选择“其他“；</li></ol><p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p><hr><ol start="4"><li>填入UTC邮箱地址；</li></ol><p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p><hr><ol start="5"><li>在类型中选择IMAP；</li></ol><p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p><hr><ol start="6"><li>填入UTC邮箱密码；</li></ol><p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p><hr><ol start="7"><li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li></ol><p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p><hr><ol start="8"><li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li></ol><p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p><hr><ol start="9"><li>剩余为用户自定义设置，根据自己喜好填写即可；</li></ol><p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p><hr><ol start="10"><li>教程至此结束，如有疑惑可以在评论区提出。</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;UTC-邮件客户端配置-安卓-Gmail&quot;&gt;&lt;a href=&quot;#UTC-邮件客户端配置-安卓-Gmail&quot; class=&quot;headerlink&quot; title=&quot;UTC 邮件客户端配置 - 安卓 - Gmail&quot;&gt;&lt;/a&gt;UTC 邮件客户端配置 - 安卓 - Gma
-      
+      &lt;h1 id=&quot;UTC-邮件客户端配置-安卓-Gmail&quot;&gt;&lt;a href=&quot;#UTC-邮件客户端配置-安卓-Gmail&quot; class=&quot;headerlink&quot; title=&quot;UTC 邮件客户端配置 - 安卓 - Gmail&quot;&gt;&lt;/a&gt;UTC 邮件客户端配置 - 安卓 - Gmail&lt;/h1&gt;
     
     </summary>
     
