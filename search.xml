@@ -1,84 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
+    <url>/2020/03/31/utcmail/</url>
+    <content><![CDATA[<h1 id="UTC-邮件客户端配置-安卓-Gmail"><a href="#UTC-邮件客户端配置-安卓-Gmail" class="headerlink" title="UTC 邮件客户端配置 - 安卓 - Gmail"></a>UTC 邮件客户端配置 - 安卓 - Gmail</h1><ol>
+<li>打开Gmail，点击右上角的头像以打开账户管理；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p>
+<hr>
+<ol start="2">
+<li>选择“添加其他账号”； </li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p>
+<hr>
+<ol start="3">
+<li>选择“其他“；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p>
+<hr>
+<ol start="4">
+<li>填入UTC邮箱地址；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p>
+<hr>
+<ol start="5">
+<li>在类型中选择IMAP；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p>
+<hr>
+<ol start="6">
+<li>填入UTC邮箱密码；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p>
+<hr>
+<ol start="7">
+<li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p>
+<hr>
+<ol start="8">
+<li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p>
+<hr>
+<ol start="9">
+<li>剩余为用户自定义设置，根据自己喜好填写即可；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p>
+<hr>
+<ol start="10">
+<li>教程至此结束，如有疑惑可以在评论区提出。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>Gmail</tag>
+        <tag>UTC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MD语法笔记</title>
     <url>/2018/12/27/note/</url>
-    <content><![CDATA[<blockquote>
-<p>之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。</p>
+    <content><![CDATA[<p>之前一直用 HTML 写博文的我真的是勤快过头了，现在才发现 Hexo 有 MD 支持。</p>
+<p>在这里简单记下 MD 的语法以备后续使用。</p>
 <blockquote>
-<p>在这里简单记下MD的语法以备后续使用。</p>
-</blockquote>
+<p>2020/04/01 根据<a href="spec.commonmark.org/">MarkDown 标准网站</a>更新。</p>
 </blockquote>
 <hr>
+<ol>
+<li>自动目录</li>
+</ol>
 <a id="more"></a>
 
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[TOC]</span><br></pre></td></tr></table></figure>
 
-<p>根据标题生成目录，好像不支持。</p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 这是一级标题</span></span><br><span class="line"><span class="section">## 这是二级标题</span></span><br><span class="line"><span class="section">### 这是三级标题</span></span><br><span class="line"><span class="section">#### 这是四级标题</span></span><br><span class="line"><span class="section">##### 这是五级标题</span></span><br><span class="line"><span class="section">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">======================</span><br><span class="line">二级标题</span><br><span class="line">---------------------</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span>  </span><br><span class="line"><span class="emphasis">*这是倾斜的文字*</span>  </span><br><span class="line"><span class="strong">***这是斜体加粗的文字**</span>*  </span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
-
-<p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>这是引用的内容</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">分割线们：</span><br><span class="line">三个或者三个以上的 - 或者 * 都可以。</span><br></pre></td></tr></table></figure>
-
-<p>示例？整篇文章都有啊？</p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">超链接名1</span>](<span class="link">超链接地址 "超链接title"</span>)&#123;:target="_blank"&#125;</span><br><span class="line"></span><br><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址 "图片title"</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">[图片alt(图片地址)</span>]](超链接地址)&#123;:target="_blank"&#125;</span><br></pre></td></tr></table></figure>
-
-<p><span class="exturl" data-url="aHR0cHM6Ly90aGFua3NzaHUuZ2l0aHViLmlvLw==" title="https://thanksshu.github.io/">我的博客<i class="fa fa-external-link"></i></span></p>
-<p><img data-src="https://s1.ax1x.com/2018/10/19/iwIUB9.jpg" alt="避邪" title="日常避邪"><br>好像不好用？</p>
-<p>第三条不支持~</p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line">注意：- + * 跟内容之间有空格</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">列表嵌套:</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br><span class="line"><span class="bullet">1. </span>嘤嘤嘤</span><br><span class="line">   1. 嘤嘤嘤</span><br><span class="line">   - Bonjour!</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Item 1</li>
-<li>或者 + Item 1</li>
-<li>或者 - Item 1</li>
-</ul>
-<p>注意：- + * 跟内容之间有空格</p>
-<ol>
-<li>列表内容</li>
-<li>列表内容</li>
-<li>列表内容</li>
+<ol start="2">
+<li>多级标题</li>
 </ol>
-<p>注意：序号跟内容之间要有空格</p>
-<ol>
-<li>嘤嘤嘤<ol>
-<li>嘤嘤嘤</li>
-<li>Bonjour!</li>
-</ol>
-</li>
-</ol>
-<p>注意：上一级和下一级之间有空格</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">====</span><br><span class="line"></span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
 <hr>
+<ol start="3">
+<li>字体样式</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span>  </span><br><span class="line"><span class="emphasis">_这是倾斜的文字_</span>  </span><br><span class="line"><span class="strong">**_这是斜体加粗的文字_*</span>*  </span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="4">
+<li>引用</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 这是引用的内容</span></span><br><span class="line">&gt;</span><br><span class="line"><span class="quote">&gt; &gt; 这是引用的内容</span></span><br><span class="line"><span class="quote">&gt; &gt;</span></span><br><span class="line"><span class="quote">&gt; &gt; &gt; &gt; &gt; &gt; &gt; 这是引用的内容</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="5">
+<li>分割线</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="emphasis">***</span></span><br><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="6">
+<li>超链接</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">超链接名 1</span>](<span class="link">超链接地址 "超链接title"</span>)&#123;:target="\_blank"&#125;</span><br><span class="line"></span><br><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址 "图片title"</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">[图片 alt(图片地址)</span>]](超链接地址)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="7">
+<li>列表</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">4. </span>列表内容</span><br><span class="line">   1. 列表内容</span><br><span class="line">   - 列表内容</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="8">
+<li>表格</li>
+</ol>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">表格的语句上一行必须为空行。</span><br><span class="line">|表头|表头|表头|</span><br><span class="line">|-|:-:|-:| #这行分割表头与内容，标记居中、左、右。</span><br><span class="line">|居左|居中|居右|</span><br><span class="line">|如果说话稍微多一点的话|就可以看出来差别了|我希望是这样没有问题的。|</span><br></pre></td></tr></table></figure>
 
 <table>
@@ -105,51 +142,37 @@
 
 <p><code>代码内容</code></p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">* </span>[x] 选项一</span><br><span class="line"><span class="bullet">* </span>[ ] 选项二  </span><br><span class="line"><span class="bullet">* </span>[ ] 选项三</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] 选项一</span><br><span class="line"><span class="bullet">- </span>[ ] 选项二</span><br><span class="line"><span class="bullet">- </span>[ ] 选项三</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 选项一</li>
-<li><input disabled="" type="checkbox"> 选项二  </li>
+<li><input disabled="" type="checkbox"> 选项二</li>
 <li><input disabled="" type="checkbox"> 选项三</li>
 </ul>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">“<span class="code">```flow” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op1=&gt;operation: 程序</span></span><br><span class="line"><span class="code">sub2=&gt;subroutine: 子程序</span></span><br><span class="line"><span class="code">cond3=&gt;condition: 是或否？</span></span><br><span class="line"><span class="code">io4=&gt;inputoutput: 输入</span></span><br><span class="line"><span class="code">e=&gt;end: 结束</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st-&gt;op1-&gt;cond4</span></span><br><span class="line"><span class="code">cond3(yes,up)-&gt;io4(down)-&gt;e</span></span><br><span class="line"><span class="code">cond3(no,left)-&gt;sub2(right)-&gt;op</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">“<span class="code">```flow” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op1=&gt;operation: 程序</span></span><br><span class="line"><span class="code">sub2=&gt;subroutine: 子程序</span></span><br><span class="line"><span class="code">cond3=&gt;condition: 是或否？</span></span><br><span class="line"><span class="code">io4=&gt;inputoutput: 输入</span></span><br><span class="line"><span class="code">e=&gt;end: 结束</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st-&gt;op1-&gt;cond4</span></span><br><span class="line"><span class="code">cond3(yes,up)-&gt;io4(down)-&gt;e</span></span><br><span class="line"><span class="code">cond3(no,left)-&gt;sub2(right)-&gt;op</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
 
 <p>好吧，不支持。</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">xxx@xxx.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<p><span class="exturl" data-url="bWFpbHRvOiYjMTIwOyYjMTIwOyYjeDc4OyYjNjQ7JiN4Nzg7JiN4Nzg7JiN4Nzg7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=" title="mailto:&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDc4OyYjMTIwOyYjeDc4OyYjNjQ7JiMxMjA7JiN4Nzg7JiMxMjA7JiM0NjsmIzk5OyYjeDZmOyYjMTA5Ow==" title="mailto:&#x78;&#120;&#x78;&#64;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#109;">&#x78;&#120;&#x78;&#64;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link"></i></span></p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Markdown</span><br><span class="line">:   轻量级文本标记语言，可以转换成html，pdf等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">:   代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Markdown</span><br><span class="line">: 轻量级文本标记语言，可以转换成 html，pdf 等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">: 代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
 
-<dl><dt>Markdown</dt><dd>轻量级文本标记语言，可以转换成html，pdf等格式</dd></dl><dl><dt>代码块定义</dt><dd>代码块定义……</dd></dl><pre><code>var a = 10;</code></pre><hr>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">“<span class="code">```sequence”</span></span><br><span class="line"><span class="code">A-&gt;&gt;B: 你好</span></span><br><span class="line"><span class="code">Note left of A: 我在左边 #注释方向，只有左右，没有上下</span></span><br><span class="line"><span class="code">Note right of B: 我在右边</span></span><br><span class="line"><span class="code">B--&gt;A: 很高兴认识你</span></span><br><span class="line"><span class="code">“```”</span></span><br></pre></td></tr></table></figure>
+<dl><dt>Markdown</dt><dd>轻量级文本标记语言，可以转换成 html，pdf 等格式</dd></dl><dl><dt>代码块定义</dt><dd>代码块定义……</dd></dl><pre><code>var a = 10;</code></pre><hr>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">“<span class="code">`sequence” A-&gt;&gt;B: 你好 Note left of A: 我在左边 #注释方向，只有左右，没有上下 Note right of B: 我在右边 B--&gt;A: 很高兴认识你 “`</span>”</span><br></pre></td></tr></table></figure>
 
 <p>又不支持啊？！</p>
 <hr>
-<p>最后，一个Markdown小工具：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8v" title="https://typora.io/">Typora<i class="fa fa-external-link"></i></span></p>
+<p>最后，一个 Markdown 小工具：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8v" title="https://typora.io/">Typora<i class="fa fa-external-link"></i></span></p>
 <hr>
 <p>整理就此结束，希望能帮到大家。</p>
 ]]></content>
       <categories>
-        <category>实用文档</category>
+        <category>笔记</category>
       </categories>
       <tags>
-        <tag>干货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个废人的脚本</title>
-    <url>/2018/11/13/unmauvais/</url>
-    <content><![CDATA[<p>突然想起来要不要写个小脚本，然后就写了，<br>这才发现我已经废了，花了数倍于往常的时间不说，效果还十分不尽人意。<br>—我还是老老实实学法语吧…</p>
-<p>脚本是一个摩尔斯电码发生器，可以通过调用手机摄像头工作，还是挺有意思的？</p>
-<p>图片：<br><img data-src="https://s1.ax1x.com/2018/12/09/F8682R.jpg" alt="F8682R.jpg" border="0" /></p>
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>更新</tag>
+        <tag>MarkDown</tag>
       </tags>
   </entry>
   <entry>
@@ -157,147 +180,107 @@
     <url>/2018/10/20/dupan/</url>
     <content><![CDATA[<p>应朋友之请，在此更新关于手机使用命令行百度网盘的教程。</p>
 <a id="more"></a>
+
 <hr>
 一、需要准备的东西
 
-<p>1.一颗耐心，用来仔细阅读博文；<br>2.安装<span class="exturl" data-url="aHR0cHM6Ly9mLWRyb2lkLm9yZy96aF9IYW5zLw==" title="https://f-droid.org/zh_Hans/">F-droid<i class="fa fa-external-link"></i></span>；<br>3.下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>；<br>(详见下文)</p>
+<p>1.一颗耐心，用来仔细阅读博文； 2.安装<span class="exturl" data-url="aHR0cHM6Ly9mLWRyb2lkLm9yZy96aF9IYW5zLw==" title="https://f-droid.org/zh_Hans/">F-droid<i class="fa fa-external-link"></i></span>； 3.下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>；<br>(详见下文)</p>
 <hr>
 二、准备所需软件
 
-<p>注意！以下命令及输入均以敲击Enter做确认！</p>
-<p>1.准备Termux：先安装好F-droid，并在内部搜索、安装“Termux”；<br>启动Termux并等待初始化，直至初始界面出现；<br>运行以下代码：</p>
+<p>注意！以下命令及输入均以敲击 Enter 做确认！</p>
+<p>1.准备 Termux：先安装好 F-droid，并在内部搜索、安装“Termux”；<br>启动 Termux 并等待初始化，直至初始界面出现；<br>运行以下代码：</p>
 <pre><code>export EDITOR=vi && apt edit-sources</code></pre>
+
 <p>输入“i”来进入编辑模式，<br>将内部文字替换成：</p>
 <pre><code># The main termux repository:
 deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable main
 deb [trusted=yes] http://termux.iikira.com stable main</code></pre>
+
 <p>从屏幕最左侧向右侧滑动，打开面板：<br><img data-src="https://s1.ax1x.com/2018/10/20/i0x2ex.md.jpg"><br>长按“KEYBORD”直到小键盘弹出：<br><img data-src="https://s1.ax1x.com/2018/10/20/i0xcO1.jpg"><br>向左滑关闭面板；<br>按下“ESC”，输入：</p>
 <pre><code>:wq</code></pre>
+
 <p>就会保存退出；<br>接下来输入：</p>
 <pre><code>apt update && apt upgrade<code></pre>
+
 <p>更新软件库和包；<br>最后输入：</p>
 <pre><code>termux-setup-storage</code></pre>
-<p>并确认，使我们可以访问手机内存，<br>即可将Termux配置完成。<br>更多使用方法参见：<span class="exturl" data-url="aHR0cHM6Ly90ZXJtdXguY29tLw==" title="https://termux.com/">Termux官网<i class="fa fa-external-link"></i></span><br>vi/vim的使用方法见：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9saW51eC9saW51eC12aW0uaHRtbA==" title="https://www.runoob.com/linux/linux-vim.html">菜鸟教程:vi/vim<i class="fa fa-external-link"></i></span></p>
+
+<p>并确认，使我们可以访问手机内存，<br>即可将 Termux 配置完成。<br>更多使用方法参见：<span class="exturl" data-url="aHR0cHM6Ly90ZXJtdXguY29tLw==" title="https://termux.com/">Termux 官网<i class="fa fa-external-link"></i></span><br>vi/vim 的使用方法见：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9saW51eC9saW51eC12aW0uaHRtbA==" title="https://www.runoob.com/linux/linux-vim.html">菜鸟教程:vi/vim<i class="fa fa-external-link"></i></span></p>
 <p>2.安装<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>：</p>
 <pre><code>apt install BaiduPCS-Go</code></pre>
-<p>遇到提示则输入“Y”并Enter；<br>等待安装完成……</p>
+
+<p>遇到提示则输入“Y”并 Enter；<br>等待安装完成……</p>
 <hr>
 三、初始化软件
 
 <p>安装好之后先执行：</p>
 <pre><code>alias dupan='BaiduPCS-Go'</code></pre>
+
 <p>来简化命令；<br>再执行：</p>
 <pre><code>dupan update</code></pre>
+
 <p>更新到最新版本；<br>之后是：</p>
 <pre><code>dupan config set -appid 266719
 dupan config set -savedir /sdcard/BaiduNetdisk
 dupan config set -max_parallel=128
 dupan config set -cache_size=1024000</code></pre>
+
 <p>分开执行三条指令以初始化客户端；<br>紧接着：</p>
 <pre><code>dupan login </code></pre>
-<p>按照提示登录：<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSHdP.jpg"><br>输入用户名或其他登录信息；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSoqI.jpg"><br>输入密码；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSbIf.jpg"><br>输入验证码：长按屏幕，弹出如上所示对话框，选择“Select URL”<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSLi8.jpg"><br>长按百度验证码的URL，在浏览器中就可以看到验证码，把它输入进去；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSOJS.jpg"><br>可以说大功告成了。</p>
+
+<p>按照提示登录：<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSHdP.jpg"><br>输入用户名或其他登录信息；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSoqI.jpg"><br>输入密码；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSbIf.jpg"><br>输入验证码：长按屏幕，弹出如上所示对话框，选择“Select URL”<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSLi8.jpg"><br>长按百度验证码的 URL，在浏览器中就可以看到验证码，把它输入进去；<br><img data-src="https://s1.ax1x.com/2018/10/20/iBSOJS.jpg"><br>可以说大功告成了。</p>
 <hr>
 四、基础使用
 
 <p>这里只介绍最基本的功能，剩余请向我提出更新要求或者<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hby9ibG9iL21hc3Rlci9SRUFETUUubWQjJUU1JTkxJUJEJUU0JUJCJUE0JUU1JTg4JTk3JUU4JUExJUE4JUU1JThGJThBJUU4JUFGJUI0JUU2JTk4JThF" title="https://github.com/iikira/BaiduPCS-Go/blob/master/README.md#%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8%E5%8F%8A%E8%AF%B4%E6%98%8E">看这里<i class="fa fa-external-link"></i></span></p>
 <p>以命令</p>
 <pre><code>dupan</code></pre>
-<p>进入软件cli模式；</p>
+
+<p>进入软件 cli 模式；</p>
 <p>此时输入</p>
 <pre><code>help</code></pre>
+
 <p>查看命令提示；</p>
 <p>执行：</p>
 <pre><code>web</code></pre>
+
 <p>在浏览器中访问<span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo4MDgw" title="http://localhost:8080">http://localhost:8080<i class="fa fa-external-link"></i></span>就可以使用（测试功能）了；</p>
-<p>使用“CTRL+C”可以退出程序，<br>或者在cli模式下输入</p>
+<p>使用“CTRL+C”可以退出程序，<br>或者在 cli 模式下输入</p>
 <pre><code>quit</code></pre>
+
 <p>也可以；</p>
-<p>在cli模式下（“#”后是注释）：</p>
+<p>在 cli 模式下（“#”后是注释）：</p>
 <pre><code>cd 路径名 #进入指定目录
 ls #查看路径下的文件
 pwd #显示当前路径
 quota #查看网盘容量信息
 d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk内</code></pre>
+
 <p>……</p>
 <hr>
 文章到这里就完成了，作为我的第一篇干货，我会持续更新的，有任何问题请联系我或者在下方评论。
 <hr>
 ]]></content>
       <categories>
-        <category>实用文档</category>
+        <category>实用</category>
       </categories>
       <tags>
-        <tag>更新</tag>
-        <tag>干货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>辟邪</title>
-    <url>/2018/10/19/post/</url>
-    <content><![CDATA[<p style="text-align:center;">辟邪用图片</p>
-<a id="more"></a>
-<img data-src="https://s1.ax1x.com/2018/10/19/iwIUB9.jpg"/>
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更新并装备新功能</title>
-    <url>/2018/10/19/post20181019-1/</url>
-    <content><![CDATA[<p>尝试了<a herf="https://www.livere.com/">Livere</a>作为以后的博客评论系统，希望大家多多灌水；<br>为了让大家灌水更加方便，我还另外添加了“分享”按钮。<br>PS:中间更新了一次，升级了内核，但是Bug略多，又辛苦地回滚到了旧版本。<br><HR><br>以上都是实验性功能，有任何问题请使用QQ或者<span class="exturl" data-url="bWFpbHRvOmhlemloYW5zaGFuZ3l1YW5AMTYzLmNvbT8=" title="mailto:hezihanshangyuan@163.com?">发送邮件<i class="fa fa-external-link"></i></span>联系我。</p>
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>实验</tag>
-        <tag>更新</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新的尝试</title>
-    <url>/2018/10/17/newtry/</url>
-    <content><![CDATA[<p>半夜（姑且算是）的更新，更新了<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9uY3I=" title="https://www.google.com/ncr">谷歌<i class="fa fa-external-link"></i></span> 与<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmluZy5jb20v" title="https://www.bing.com/">必应<i class="fa fa-external-link"></i></span> 的站点验证，估计过几天就可以在搜索引擎中被搜到了；<br>百度的验证比较特殊，复杂得可以，而且更新速度受到了一致差评<br>——因此没有配置，所以不知道可不可以，但多半是凉了；<br>验证时一同更改了博客的选项，写博文会轻松得多；<br>图床稳定，继续使的用决定已下，将站内的全部图片都更新了；<br>准备学习HTML CSS，但是在这之前：法语啊……</p>
-<p style="font-family:arial;color:red;font-size:30px;">顺手强烈推荐必应，国内能用的搜索引擎中为数不多好用的几个之一。</p>
- <img data-src="https://s1.ax1x.com/2018/10/17/idXDij.jpg" alt="更新截图"> 
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>实验</tag>
-        <tag>更新</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更新啦！</title>
-    <url>/2018/10/15/update/</url>
-    <content><![CDATA[<p>更新博客：将图片换为图床链接，做测试，稳定则沿用。<br>准备有空简单地学习一下HTML，用于博客页面美化。</p>
-<hr>
-我的图床网站：<span class="exturl" data-url="aHR0cHM6Ly9pbWdjaHIuY29tL3NodXRoYW5rcw==" title="https://imgchr.com/shuthanks">路过图床：shuthanks<i class="fa fa-external-link"></i></span>
-<img data-src="https://s1.ax1x.com/2018/10/15/iUjoBF.jpg"/>
-<hr>
-希望有加快访问速度的功能。
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>实验</tag>
-        <tag>更新</tag>
+        <tag>百度云</tag>
+        <tag>Termux</tag>
       </tags>
   </entry>
   <entry>
     <title>时隔多日的更新</title>
     <url>/2018/10/07/update/</url>
-    <content><![CDATA[<p>更新了，不容易啊：<br>修复了一些Bug，除此之外没有了。</p>
-<p>重要的是这次更新在手机上完成了，<br>不过因为懒就没有写更加复杂的博文，<br>过程截图：</p>
-<div align=center> <img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg"/> </div>
-
+    <content><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><blockquote>
+<p>2020/03/31 更换MarkDown，并开始整个博客的翻新</p>
+</blockquote>
+<ul>
+<li>修复了一些 Bug。</li>
+<li>这次更新在手机上完成了，过程截图：</li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg" alt=""></p>
 <p>好了就这样——之后要考虑在这里放些为所欲为的东西了？</p>
 ]]></content>
       <categories>
@@ -331,26 +314,8 @@ d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk�
     <url>/2018/07/05/eh/</url>
     <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>嗯……</title>
-    <url>/2018/07/05/eh/</url>
-    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
-]]></content>
       <tags>
         <tag>实验</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello,world!</title>
-    <url>/2018/07/05/hello-world/</url>
-    <content><![CDATA[<p>看起来没有改进？其实是修改了部分内容。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello,world!</title>
-    <url>/2018/07/05/hello-world/</url>
-    <content><![CDATA[<p>看起来没有改进？其实是修改了部分内容。</p>
-]]></content>
   </entry>
 </search>

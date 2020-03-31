@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#202">
-<meta name="generator" content="Hexo 4.0.0">
+<meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -22,49 +22,23 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-big-counter.css">
   <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
 
-
 <script id="hexo-configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    hostname: new URL('https://thanksshu.tk').hostname,
-    root: '/',
-    scheme: 'Pisces',
-    version: '7.7.0',
-    exturl: true,
-    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    bookmark: {"enable":true,"color":"#222","save":"auto"},
-    fancybox: false,
-    mediumzoom: true,
-    lazyload: true,
-    pangu: true,
-    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
-    algolia: {
-      appID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    },
-    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    path: 'search.xml',
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
-  };
-</script>
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"thanksshu.tk","root":"/","scheme":"Pisces","version":"7.7.2","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
 
-  <meta name="description" content="之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。  在这里简单记下MD的语法以备后续使用。">
-<meta name="keywords" content="干货">
+  <meta name="description" content="之前一直用 HTML 写博文的我真的是勤快过头了，现在才发现 Hexo 有 MD 支持。 在这里简单记下 MD 的语法以备后续使用。  2020&#x2F;04&#x2F;01 根据MarkDown 标准网站更新。    自动目录">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MD语法笔记">
-<meta property="og:url" content="https:&#x2F;&#x2F;thanksshu.tk&#x2F;2018&#x2F;12&#x2F;27&#x2F;note&#x2F;index.html">
+<meta property="og:url" content="https://thanksshu.tk/2018/12/27/note/index.html">
 <meta property="og:site_name" content="答谢韩书书的博客">
-<meta property="og:description" content="之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。  在这里简单记下MD的语法以备后续使用。">
-<meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https:&#x2F;&#x2F;s1.ax1x.com&#x2F;2018&#x2F;10&#x2F;19&#x2F;iwIUB9.jpg">
-<meta property="og:updated_time" content="2018-12-27T12:16:25.861Z">
+<meta property="og:description" content="之前一直用 HTML 写博文的我真的是勤快过头了，现在才发现 Hexo 有 MD 支持。 在这里简单记下 MD 的语法以备后续使用。  2020&#x2F;04&#x2F;01 根据MarkDown 标准网站更新。    自动目录">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-12-27T08:56:03.000Z">
+<meta property="article:modified_time" content="2020-03-31T11:27:47.611Z">
+<meta property="article:author" content="thanksshu">
+<meta property="article:tag" content="MarkDown">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;s1.ax1x.com&#x2F;2018&#x2F;10&#x2F;19&#x2F;iwIUB9.jpg">
 
 <link rel="canonical" href="https://thanksshu.tk/2018/12/27/note/">
 
@@ -73,15 +47,16 @@
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: false,
-    isPost: true
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
   };
 </script>
 
   <title>MD语法笔记 | 答谢韩书书的博客</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142991795-1"></script>
-    <script pjax>
+    <script data-pjax>
       if (CONFIG.hostname === location.hostname) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -127,19 +102,6 @@
 
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
-  <div class="site-meta">
-
-    <div>
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">答谢韩书书的博客</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-        <h1 class="site-subtitle" itemprop="description">Blog de Thanksshu</h1>
-      
-  </div>
-
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
@@ -147,11 +109,28 @@
       <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">答谢韩书书的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blog de Thanksshu</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
 
+
+
 <nav class="site-nav">
-  
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
@@ -165,17 +144,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">5</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">8</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">2</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">13</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -193,29 +172,34 @@
         </a>
       </li>
   </ul>
-
 </nav>
-  <div class="site-search">
+
+
+
+  <div class="search-pop-overlay">
     <div class="popup search-popup">
-    <div class="search-header">
+        <div class="search-header">
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+    <input autocomplete="off" autocapitalize="off"
            placeholder="搜索..." spellcheck="false"
-           type="text" id="search-input">
+           type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result"></div>
-
-</div>
-<div class="search-pop-overlay"></div>
-
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
   </div>
+</div>
+
+    </div>
+  </div>
+
 </div>
     </header>
 
@@ -233,14 +217,13 @@
         <div class="content-wrap">
           
 
-          <div class="content">
+          <div class="content post posts-expand">
             
 
-  <div class="posts-expand">
-      
+    
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://thanksshu.tk/2018/12/27/note/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -253,9 +236,9 @@
       <meta itemprop="name" content="答谢韩书书的博客">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           MD语法笔记
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -272,9 +255,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AE%9E%E7%94%A8%E6%96%87%E6%A1%A3/" itemprop="url" rel="index">
-                    <span itemprop="name">实用文档</span>
-                  </a>
+                  <a href="/categories/%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a>
                 </span>
             </span>
 
@@ -284,14 +265,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.7k</span>
+              <span>1.4k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -303,82 +284,59 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <blockquote>
-<p>之前一直用HTML写博文的我真的是勤快过头了，现在才发现Hexo有MD支持。</p>
+        <p>之前一直用 HTML 写博文的我真的是勤快过头了，现在才发现 Hexo 有 MD 支持。</p>
+<p>在这里简单记下 MD 的语法以备后续使用。</p>
 <blockquote>
-<p>在这里简单记下MD的语法以备后续使用。</p>
-</blockquote>
+<p>2020/04/01 根据<a href="spec.commonmark.org/">MarkDown 标准网站</a>更新。</p>
 </blockquote>
 <hr>
+<ol>
+<li>自动目录</li>
+</ol>
 <a id="more"></a>
 
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[TOC]</span><br></pre></td></tr></table></figure>
 
-<p>根据标题生成目录，好像不支持。</p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 这是一级标题</span></span><br><span class="line"><span class="section">## 这是二级标题</span></span><br><span class="line"><span class="section">### 这是三级标题</span></span><br><span class="line"><span class="section">#### 这是四级标题</span></span><br><span class="line"><span class="section">##### 这是五级标题</span></span><br><span class="line"><span class="section">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">一级标题</span><br><span class="line">======================</span><br><span class="line">二级标题</span><br><span class="line">---------------------</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span>  </span><br><span class="line"><span class="emphasis">*这是倾斜的文字*</span>  </span><br><span class="line"><span class="strong">***这是斜体加粗的文字**</span>*  </span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
-
-<p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>这是引用的内容</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">分割线们：</span><br><span class="line">三个或者三个以上的 - 或者 * 都可以。</span><br></pre></td></tr></table></figure>
-
-<p>示例？整篇文章都有啊？</p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">超链接名1</span>](<span class="link">超链接地址 "超链接title"</span>)&#123;:target="_blank"&#125;</span><br><span class="line"></span><br><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址 "图片title"</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">[图片alt(图片地址)</span>]](超链接地址)&#123;:target="_blank"&#125;</span><br></pre></td></tr></table></figure>
-
-<p><span class="exturl" data-url="aHR0cHM6Ly90aGFua3NzaHUuZ2l0aHViLmlvLw==" title="https://thanksshu.github.io/">我的博客<i class="fa fa-external-link"></i></span></p>
-<p><img data-src="https://s1.ax1x.com/2018/10/19/iwIUB9.jpg" alt="避邪" title="日常避邪"><br>好像不好用？</p>
-<p>第三条不支持~</p>
-<hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line">注意：- + * 跟内容之间有空格</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">列表嵌套:</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br><span class="line"><span class="bullet">1. </span>嘤嘤嘤</span><br><span class="line">   1. 嘤嘤嘤</span><br><span class="line">   - Bonjour!</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Item 1</li>
-<li>或者 + Item 1</li>
-<li>或者 - Item 1</li>
-</ul>
-<p>注意：- + * 跟内容之间有空格</p>
-<ol>
-<li>列表内容</li>
-<li>列表内容</li>
-<li>列表内容</li>
+<ol start="2">
+<li>多级标题</li>
 </ol>
-<p>注意：序号跟内容之间要有空格</p>
-<ol>
-<li>嘤嘤嘤<ol>
-<li>嘤嘤嘤</li>
-<li>Bonjour!</li>
-</ol>
-</li>
-</ol>
-<p>注意：上一级和下一级之间有空格</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">一级标题</span><br><span class="line">====</span><br><span class="line"></span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
 <hr>
+<ol start="3">
+<li>字体样式</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span>  </span><br><span class="line"><span class="emphasis">_这是倾斜的文字_</span>  </span><br><span class="line"><span class="strong">**_这是斜体加粗的文字_*</span>*  </span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="4">
+<li>引用</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 这是引用的内容</span></span><br><span class="line">&gt;</span><br><span class="line"><span class="quote">&gt; &gt; 这是引用的内容</span></span><br><span class="line"><span class="quote">&gt; &gt;</span></span><br><span class="line"><span class="quote">&gt; &gt; &gt; &gt; &gt; &gt; &gt; 这是引用的内容</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="5">
+<li>分割线</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="emphasis">***</span></span><br><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="6">
+<li>超链接</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">超链接名 1</span>](<span class="link">超链接地址 "超链接title"</span>)&#123;:target="\_blank"&#125;</span><br><span class="line"></span><br><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址 "图片title"</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">[图片 alt(图片地址)</span>]](超链接地址)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="7">
+<li>列表</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br><span class="line"></span><br><span class="line"><span class="bullet">4. </span>列表内容</span><br><span class="line">   1. 列表内容</span><br><span class="line">   - 列表内容</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="8">
+<li>表格</li>
+</ol>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">表格的语句上一行必须为空行。</span><br><span class="line">|表头|表头|表头|</span><br><span class="line">|-|:-:|-:| #这行分割表头与内容，标记居中、左、右。</span><br><span class="line">|居左|居中|居右|</span><br><span class="line">|如果说话稍微多一点的话|就可以看出来差别了|我希望是这样没有问题的。|</span><br></pre></td></tr></table></figure>
 
 <table>
@@ -405,29 +363,29 @@
 
 <p><code>代码内容</code></p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">* </span>[x] 选项一</span><br><span class="line"><span class="bullet">* </span>[ ] 选项二  </span><br><span class="line"><span class="bullet">* </span>[ ] 选项三</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] 选项一</span><br><span class="line"><span class="bullet">- </span>[ ] 选项二</span><br><span class="line"><span class="bullet">- </span>[ ] 选项三</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 选项一</li>
-<li><input disabled="" type="checkbox"> 选项二  </li>
+<li><input disabled="" type="checkbox"> 选项二</li>
 <li><input disabled="" type="checkbox"> 选项三</li>
 </ul>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">“<span class="code">```flow” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op1=&gt;operation: 程序</span></span><br><span class="line"><span class="code">sub2=&gt;subroutine: 子程序</span></span><br><span class="line"><span class="code">cond3=&gt;condition: 是或否？</span></span><br><span class="line"><span class="code">io4=&gt;inputoutput: 输入</span></span><br><span class="line"><span class="code">e=&gt;end: 结束</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st-&gt;op1-&gt;cond4</span></span><br><span class="line"><span class="code">cond3(yes,up)-&gt;io4(down)-&gt;e</span></span><br><span class="line"><span class="code">cond3(no,left)-&gt;sub2(right)-&gt;op</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">“<span class="code">```flow” #这为了显示，本没有引号</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op1=&gt;operation: 程序</span></span><br><span class="line"><span class="code">sub2=&gt;subroutine: 子程序</span></span><br><span class="line"><span class="code">cond3=&gt;condition: 是或否？</span></span><br><span class="line"><span class="code">io4=&gt;inputoutput: 输入</span></span><br><span class="line"><span class="code">e=&gt;end: 结束</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">st-&gt;op1-&gt;cond4</span></span><br><span class="line"><span class="code">cond3(yes,up)-&gt;io4(down)-&gt;e</span></span><br><span class="line"><span class="code">cond3(no,left)-&gt;sub2(right)-&gt;op</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">“```” #这为了显示，本没有引号</span></span><br></pre></td></tr></table></figure>
 
 <p>好吧，不支持。</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">xxx@xxx.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<p><span class="exturl" data-url="bWFpbHRvOiYjMTIwOyYjMTIwOyYjeDc4OyYjNjQ7JiN4Nzg7JiN4Nzg7JiN4Nzg7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=" title="mailto:&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#64;&#x78;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link"></i></span></p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDc4OyYjMTIwOyYjeDc4OyYjNjQ7JiMxMjA7JiN4Nzg7JiMxMjA7JiM0NjsmIzk5OyYjeDZmOyYjMTA5Ow==" title="mailto:&#x78;&#120;&#x78;&#64;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#109;">&#x78;&#120;&#x78;&#64;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link"></i></span></p>
 <hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Markdown</span><br><span class="line">:   轻量级文本标记语言，可以转换成html，pdf等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">:   代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Markdown</span><br><span class="line">: 轻量级文本标记语言，可以转换成 html，pdf 等格式</span><br><span class="line"></span><br><span class="line">代码块定义</span><br><span class="line">: 代码块定义……</span><br><span class="line"></span><br><span class="line"><span class="code">        var a = 10; #保持空一行与 递进缩进</span></span><br></pre></td></tr></table></figure>
 
-<dl><dt>Markdown</dt><dd>轻量级文本标记语言，可以转换成html，pdf等格式</dd></dl><dl><dt>代码块定义</dt><dd>代码块定义……</dd></dl><pre><code>var a = 10;</code></pre><hr>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">“<span class="code">```sequence”</span></span><br><span class="line"><span class="code">A-&gt;&gt;B: 你好</span></span><br><span class="line"><span class="code">Note left of A: 我在左边 #注释方向，只有左右，没有上下</span></span><br><span class="line"><span class="code">Note right of B: 我在右边</span></span><br><span class="line"><span class="code">B--&gt;A: 很高兴认识你</span></span><br><span class="line"><span class="code">“```”</span></span><br></pre></td></tr></table></figure>
+<dl><dt>Markdown</dt><dd>轻量级文本标记语言，可以转换成 html，pdf 等格式</dd></dl><dl><dt>代码块定义</dt><dd>代码块定义……</dd></dl><pre><code>var a = 10;</code></pre><hr>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">“<span class="code">`sequence” A-&gt;&gt;B: 你好 Note left of A: 我在左边 #注释方向，只有左右，没有上下 Note right of B: 我在右边 B--&gt;A: 很高兴认识你 “`</span>”</span><br></pre></td></tr></table></figure>
 
 <p>又不支持啊？！</p>
 <hr>
-<p>最后，一个Markdown小工具：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8v" title="https://typora.io/">Typora<i class="fa fa-external-link"></i></span></p>
+<p>最后，一个 Markdown 小工具：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8v" title="https://typora.io/">Typora<i class="fa fa-external-link"></i></span></p>
 <hr>
 <p>整理就此结束，希望能帮到大家。</p>
 
@@ -439,7 +397,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E5%B9%B2%E8%B4%A7/" rel="tag"># 干货</a>
+              <a href="/tags/MarkDown/" rel="tag"># MarkDown</a>
           </div>
 
         
@@ -448,10 +406,13 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2018/11/13/unmauvais/" rel="prev" title="一个废人的脚本">
-      <i class="fa fa-chevron-left"></i> 一个废人的脚本
+    <a href="/2018/10/20/dupan/" rel="prev" title="命令行度盘使用简介">
+      <i class="fa fa-chevron-left"></i> 命令行度盘使用简介
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/03/31/utcmail/" rel="next" title="UTC 邮件客户端配置 - 安卓 - Gmail">
+      UTC 邮件客户端配置 - 安卓 - Gmail <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -460,7 +421,6 @@
   
   
 
-  </div>
 
 
           </div>
@@ -469,7 +429,7 @@
 
 <script>
   window.addEventListener('tabs:register', () => {
-    let activeClass = CONFIG.comments.activeClass;
+    let { activeClass } = CONFIG.comments;
     if (CONFIG.comments.storage) {
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
@@ -512,7 +472,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#这是一级标题"><span class="nav-number">1.</span> <span class="nav-text">这是一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这是二级标题"><span class="nav-number">1.1.</span> <span class="nav-text">这是二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这是三级标题"><span class="nav-number">1.1.1.</span> <span class="nav-text">这是三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这是四级标题"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">这是四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#这是五级标题"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">这是五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#这是六级标题"><span class="nav-number">1.1.1.1.1.1.</span> <span class="nav-text">这是六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -528,20 +487,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -574,6 +533,8 @@
       <div class="footer-inner">
         
 
+        
+
 <div class="copyright">
   
   &copy; 2018 – 
@@ -587,7 +548,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">3k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -595,6 +556,8 @@
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">3 分钟</span>
 </div>
+  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly9waXNjZXMudGhlbWUtbmV4dC5vcmc=">NexT.Pisces</span> 强力驱动
+  </div>
 
         
 
@@ -619,9 +582,19 @@
   <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
 <script src="/js/schemes/pisces.js"></script>
-<script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
   <script>
 var pjax = new Pjax({
   selectors: [
@@ -629,6 +602,7 @@ var pjax = new Pjax({
     '#page-configurations',
     '.content-wrap',
     '.post-toc-wrap',
+    '.languages',
     '#pjax'
   ],
   switches: {
@@ -640,7 +614,7 @@ var pjax = new Pjax({
 });
 
 window.addEventListener('pjax:success', () => {
-  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
     var code = element.text || element.textContent || element.innerHTML || '';
     var parent = element.parentNode;
     parent.removeChild(element);
@@ -688,7 +662,8 @@ window.addEventListener('pjax:success', () => {
 
 
 
-  <script src="/js/local-search.js"></script>
+  
+<script src="/js/local-search.js"></script>
 
 
 
@@ -699,15 +674,16 @@ window.addEventListener('pjax:success', () => {
 
 
 
-<script pjax>
+
+<script data-pjax>
 if (document.querySelectorAll('pre.mermaid').length) {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
     mermaid.initialize({
-      theme: 'forest',
-      logLevel: 3,
-      flowchart: { curve: 'linear' },
-      gantt: { axisFormat: '%m/%d/%Y' },
-      sequence: { actorMargin: 50 }
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
     });
   }, window.mermaid);
 }
@@ -722,9 +698,9 @@ if (document.querySelectorAll('pre.mermaid').length) {
   <script>
       window.addEventListener('load', () => {
       quicklink({
-        timeout: 3000,
+        timeout : 3000,
         priority: true,
-        ignores: [uri => uri.includes('#'),uri => uri == 'https://thanksshu.tk/2018/12/27/note/',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://thanksshu.tk/2018/12/27/note/',]
       });
       });
   </script>
@@ -735,12 +711,12 @@ if (document.querySelectorAll('pre.mermaid').length) {
 NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
-      clientID: '64f1dd85ac0a18fbef4a',
+      clientID    : '64f1dd85ac0a18fbef4a',
       clientSecret: '36a703d623bc4d4d4ea53dfe6ac8f390f0601c84',
-      repo: 'thanksshu.github.io',
-      owner: 'thanksshu',
-      admin: ['thanksshu'],
-      id: '5b80c1a6b7de195aac73f25a2c083280',
+      repo        : 'thanksshu.github.io',
+      owner       : 'thanksshu',
+      admin       : ['thanksshu'],
+      id          : '5b80c1a6b7de195aac73f25a2c083280',
         language: '',
       distractionFreeMode: true
     });
