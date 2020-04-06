@@ -1,68 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
-    <url>/2020/03/31/utcmail/</url>
-    <content><![CDATA[<p>UTC 邮件客户端配置 - 安卓 - Gmail</p>
-<a id="more"></a>
-
-<ol>
-<li>打开Gmail，点击右上角的头像以打开账户管理；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p>
-<hr>
-<ol start="2">
-<li>选择“添加其他账号”； </li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p>
-<hr>
-<ol start="3">
-<li>选择“其他“；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p>
-<hr>
-<ol start="4">
-<li>填入UTC邮箱地址；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p>
-<hr>
-<ol start="5">
-<li>在类型中选择IMAP；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p>
-<hr>
-<ol start="6">
-<li>填入UTC邮箱密码；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p>
-<hr>
-<ol start="7">
-<li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p>
-<hr>
-<ol start="8">
-<li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p>
-<hr>
-<ol start="9">
-<li>剩余为用户自定义设置，根据自己喜好填写即可；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p>
-<hr>
-<ol start="10">
-<li>教程至此结束，如有疑惑可以在评论区提出。</li>
-</ol>
+    <title>嗯……</title>
+    <url>/2018/07/05/update/</url>
+    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
 ]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
+  </entry>
+  <entry>
+    <title>时隔多日的更新</title>
+    <url>/2018/10/07/update/</url>
+    <content><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><blockquote>
+<p>2020/03/31 Markdown重写</p>
+</blockquote>
+<ul>
+<li>修复了一些 Bug。</li>
+<li>这次更新在手机上完成了，<a id="more"></a>
+过程截图：</li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg" alt=""></p>
+<p>好了，就这样。</p>
+]]></content>
       <tags>
         <tag>Android</tag>
-        <tag>UTC</tag>
-        <tag>Mail</tag>
-        <tag>Gmail</tag>
+        <tag>Termux</tag>
       </tags>
   </entry>
   <entry>
@@ -163,6 +123,71 @@
       </categories>
       <tags>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
+    <url>/2020/03/31/utcmail/</url>
+    <content><![CDATA[<p>UTC 邮件客户端配置 - 安卓 - Gmail</p>
+<a id="more"></a>
+
+<ol>
+<li>打开Gmail，点击右上角的头像以打开账户管理；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p>
+<hr>
+<ol start="2">
+<li>选择“添加其他账号”； </li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p>
+<hr>
+<ol start="3">
+<li>选择“其他“；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p>
+<hr>
+<ol start="4">
+<li>填入UTC邮箱地址；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p>
+<hr>
+<ol start="5">
+<li>在类型中选择IMAP；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p>
+<hr>
+<ol start="6">
+<li>填入UTC邮箱密码；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p>
+<hr>
+<ol start="7">
+<li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p>
+<hr>
+<ol start="8">
+<li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p>
+<hr>
+<ol start="9">
+<li>剩余为用户自定义设置，根据自己喜好填写即可；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p>
+<hr>
+<ol start="10">
+<li>教程至此结束，如有疑惑可以在评论区提出。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>UTC</tag>
+        <tag>Mail</tag>
+        <tag>Gmail</tag>
       </tags>
   </entry>
   <entry>
@@ -268,30 +293,5 @@ d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk�
         <tag>Termux</tag>
         <tag>百度云</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>时隔多日的更新</title>
-    <url>/2018/10/07/update/</url>
-    <content><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><blockquote>
-<p>2020/03/31 Markdown重写</p>
-</blockquote>
-<ul>
-<li>修复了一些 Bug。</li>
-<li>这次更新在手机上完成了，<a id="more"></a>
-过程截图：</li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg" alt=""></p>
-<p>好了，就这样。</p>
-]]></content>
-      <tags>
-        <tag>Android</tag>
-        <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嗯……</title>
-    <url>/2018/07/05/update/</url>
-    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
-]]></content>
   </entry>
 </search>
