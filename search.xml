@@ -1,104 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown语法笔记</title>
-    <url>/2018/12/27/markdown/</url>
-    <content><![CDATA[<p>在这里简单记下 MD 的语法以备后续使用</p>
-<blockquote>
-<p>2020/03/31 根据 <span class="exturl" data-url="aHR0cHM6Ly9zcGVjLmNvbW1vbm1hcmsub3JnLzAuMjkv">CommonMark Spec 0.29<i class="fa fa-external-link-alt"></i></span> 更新</p>
-</blockquote>
-<a id="more"></a>
-
-<hr>
-<ol>
-<li>换行<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">换行</span><br><span class="line"></span><br><span class="line">换行</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<p>解析为 <code>&lt;p&gt;强制&lt;/p&gt;&lt;p&gt;换行&lt;/p&gt;</code></p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">硬\</span><br><span class="line">换行</span><br></pre></td></tr></table></figure>
-
-<p>解析为 <code>&lt;p&gt;硬&lt;br /&gt;换行&lt;/p&gt;</code></p>
-<hr>
-<ol start="2">
-<li>多级标题</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">=</span><br><span class="line"></span><br><span class="line">二级标题</span><br><span class="line">-</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
-
-<p>标题最多六级</p>
-<hr>
-<ol start="3">
-<li>字体样式</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">_这是倾斜的文字_</span></span><br><span class="line"></span><br><span class="line"><span class="emphasis">*这是倾斜的文字*</span>  </span><br><span class="line"></span><br><span class="line"><span class="strong">**这是加粗的文字**</span></span><br><span class="line"></span><br><span class="line"><span class="strong">__这是加粗的文字__</span>  </span><br><span class="line"></span><br><span class="line"><span class="strong">***这是斜体加粗的文字**</span>*  </span><br><span class="line"></span><br><span class="line"><span class="strong">___这是斜体加粗的文字__</span>_</span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="4">
-<li>引用</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; [*斜体引用链接*](超链接地址 "title")</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; ***</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; &gt; &gt; &gt; &gt; &gt; *斜体引用*</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="5">
-<li>分割线</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">***</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="6">
-<li>链接</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">*斜体显示名*</span>](<span class="link">/链接地址 "title"</span>)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">显示名</span>](<span class="link">/图片地址 "title"</span>)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">链接地址</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="symbol">参考链接名</span>]: <span class="link">/链接地址 "title"</span></span><br></pre></td></tr></table></figure>
-
-<p>参考链接是不可见的</p>
-<hr>
-<ol start="7">
-<li>列表</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="code">```markdown</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">```markdown</span></span><br><span class="line"><span class="code">1) 列表内容</span></span><br><span class="line"><span class="code">2) 列表内容</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">4. </span>列表内容</span><br><span class="line"><span class="code">    1. 列表内容</span></span><br><span class="line"><span class="code">    - `列表代码内容`</span></span><br><span class="line"><span class="code">    - ***</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="8">
-<li>代码块</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`单行代码`</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">````语言名称</span></span><br><span class="line"><span class="code">多行代码</span></span><br><span class="line"><span class="code">  以及缩进</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">```语言名称</span></span><br><span class="line"><span class="code">代码块内代码块</span></span><br><span class="line"><span class="code">  以及缩进</span></span><br><span class="line"><span class="code">```</span></span><br><span class="line"><span class="code">````</span></span><br></pre></td></tr></table></figure>
-
-<pre><code>使用四个空格的代码块
-  以及缩进</code></pre><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~~~语言名称</span><br><span class="line">多行代码</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol start="9">
-<li>HTML</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">HTML</span> 标签&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<hr>
+    <title>嗯……</title>
+    <url>/2018/07/05/update/</url>
+    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
 ]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
   </entry>
   <entry>
     <title>时隔多日的更新</title>
@@ -117,77 +23,6 @@
       <tags>
         <tag>Android</tag>
         <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嗯……</title>
-    <url>/2018/07/05/update/</url>
-    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
-    <url>/2020/03/31/utcmail/</url>
-    <content><![CDATA[<p>UTC 邮件客户端配置 - 安卓 - Gmail</p>
-<a id="more"></a>
-
-<ol>
-<li>打开Gmail，点击右上角的头像以打开账户管理；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p>
-<hr>
-<ol start="2">
-<li>选择“添加其他账号”； </li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p>
-<hr>
-<ol start="3">
-<li>选择“其他“；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p>
-<hr>
-<ol start="4">
-<li>填入UTC邮箱地址；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p>
-<hr>
-<ol start="5">
-<li>在类型中选择IMAP；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p>
-<hr>
-<ol start="6">
-<li>填入UTC邮箱密码；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p>
-<hr>
-<ol start="7">
-<li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p>
-<hr>
-<ol start="8">
-<li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p>
-<hr>
-<ol start="9">
-<li>剩余为用户自定义设置，根据自己喜好填写即可；</li>
-</ol>
-<p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p>
-<hr>
-<ol start="10">
-<li>教程至此结束，如有疑惑可以在评论区提出。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>UTC</tag>
-        <tag>Mail</tag>
-        <tag>Gmail</tag>
       </tags>
   </entry>
   <entry>
@@ -292,6 +127,171 @@ d 文件名或目录名 #下载文件，默认为本地目录下的BaiduNetdisk�
       <tags>
         <tag>Termux</tag>
         <tag>百度云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
+    <url>/2020/03/31/utcmail/</url>
+    <content><![CDATA[<p>UTC 邮件客户端配置 - 安卓 - Gmail</p>
+<a id="more"></a>
+
+<ol>
+<li>打开Gmail，点击右上角的头像以打开账户管理；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY5wt" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY5wt.jpg" alt="GQY5wt.jpg"></a></p>
+<hr>
+<ol start="2">
+<li>选择“添加其他账号”； </li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYITP" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYITP.jpg" alt="GQYITP.jpg"></a></p>
+<hr>
+<ol start="3">
+<li>选择“其他“；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYTFf" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYTFf.jpg" alt="GQYTFf.jpg"></a></p>
+<hr>
+<ol start="4">
+<li>填入UTC邮箱地址；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY7Y8" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY7Y8.jpg" alt="GQY7Y8.jpg"></a></p>
+<hr>
+<ol start="5">
+<li>在类型中选择IMAP；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQY4eI" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQY4eI.jpg" alt="GQY4eI.jpg"></a></p>
+<hr>
+<ol start="6">
+<li>填入UTC邮箱密码；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYHfS" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYHfS.jpg" alt="GQYHfS.jpg"></a></p>
+<hr>
+<ol start="7">
+<li>此处用户名为ENT登陆用户名，服务器地址为<code>imaps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYLlQ" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYLlQ.jpg" alt="GQYLlQ.jpg"></a></p>
+<hr>
+<ol start="8">
+<li>此处用户名为ENT登陆用户名，打开“需求登录”，服务器地址为<code>smtps.utc.fr</code></li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYOyj" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYOyj.jpg" alt="GQYOyj.jpg"></a></p>
+<hr>
+<ol start="9">
+<li>剩余为用户自定义设置，根据自己喜好填写即可；</li>
+</ol>
+<p><a href="https://imgchr.com/i/GQYXOs" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/03/31/GQYXOs.jpg" alt="GQYXOs.jpg"></a></p>
+<hr>
+<ol start="10">
+<li>教程至此结束，如有疑惑可以在评论区提出。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>UTC</tag>
+        <tag>Mail</tag>
+        <tag>Gmail</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法笔记</title>
+    <url>/2018/12/27/markdown/</url>
+    <content><![CDATA[<p>在这里简单记下 MD 的语法以备后续使用</p>
+<blockquote>
+<p>2020/03/31 根据 <span class="exturl" data-url="aHR0cHM6Ly9zcGVjLmNvbW1vbm1hcmsub3JnLzAuMjkv">CommonMark Spec 0.29<i class="fa fa-external-link-alt"></i></span> 更新</p>
+</blockquote>
+<a id="more"></a>
+
+<hr>
+<ol>
+<li>换行<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">换行</span><br><span class="line"></span><br><span class="line">换行</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>解析为 <code>&lt;p&gt;强制&lt;/p&gt;&lt;p&gt;换行&lt;/p&gt;</code></p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">硬\</span><br><span class="line">换行</span><br></pre></td></tr></table></figure>
+
+<p>解析为 <code>&lt;p&gt;硬&lt;br /&gt;换行&lt;/p&gt;</code></p>
+<hr>
+<ol start="2">
+<li>多级标题</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">=</span><br><span class="line"></span><br><span class="line">二级标题</span><br><span class="line">-</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>标题最多六级</p>
+<hr>
+<ol start="3">
+<li>字体样式</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">_这是倾斜的文字_</span></span><br><span class="line"></span><br><span class="line"><span class="emphasis">*这是倾斜的文字*</span>  </span><br><span class="line"></span><br><span class="line"><span class="strong">**这是加粗的文字**</span></span><br><span class="line"></span><br><span class="line"><span class="strong">__这是加粗的文字__</span>  </span><br><span class="line"></span><br><span class="line"><span class="strong">***这是斜体加粗的文字**</span>*  </span><br><span class="line"></span><br><span class="line"><span class="strong">___这是斜体加粗的文字__</span>_</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="4">
+<li>引用</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; [*斜体引用链接*](超链接地址 "title")</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; ***</span></span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; &gt; &gt; &gt; &gt; &gt; &gt; *斜体引用*</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="5">
+<li>分割线</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">***</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="6">
+<li>链接</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">*斜体显示名*</span>](<span class="link">/链接地址 "title"</span>)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">显示名</span>](<span class="link">/图片地址 "title"</span>)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">链接地址</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="symbol">参考链接名</span>]: <span class="link">/链接地址 "title"</span></span><br></pre></td></tr></table></figure>
+
+<p>参考链接是不可见的</p>
+<hr>
+<ol start="7">
+<li>列表</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="code">```markdown</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">```markdown</span></span><br><span class="line"><span class="code">1) 列表内容</span></span><br><span class="line"><span class="code">2) 列表内容</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">4. </span>列表内容</span><br><span class="line"><span class="code">    1. 列表内容</span></span><br><span class="line"><span class="code">    - `列表代码内容`</span></span><br><span class="line"><span class="code">    - ***</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="8">
+<li>代码块</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`单行代码`</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">````语言名称</span></span><br><span class="line"><span class="code">多行代码</span></span><br><span class="line"><span class="code">  以及缩进</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">```语言名称</span></span><br><span class="line"><span class="code">代码块内代码块</span></span><br><span class="line"><span class="code">  以及缩进</span></span><br><span class="line"><span class="code">```</span></span><br><span class="line"><span class="code">````</span></span><br></pre></td></tr></table></figure>
+
+<pre><code>使用四个空格的代码块
+  以及缩进</code></pre><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~~~语言名称</span><br><span class="line">多行代码</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol start="9">
+<li>HTML</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">HTML</span> 标签&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<hr>
+]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
       </tags>
   </entry>
 </search>
