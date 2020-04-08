@@ -1,36 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>嗯……</title>
-    <url>/2018/07/05/update/</url>
-    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>时隔多日的更新</title>
-    <url>/2018/10/07/update/</url>
-    <content><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><blockquote>
-<p>2020/03/31 Markdown重写</p>
-</blockquote>
-<ul>
-<li>修复了一些 Bug。</li>
-<li>这次更新在手机上完成了，<a id="more"></a>
-过程截图：</li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg" alt=""></p>
-<p>好了，就这样。</p>
-]]></content>
-      <tags>
-        <tag>Android</tag>
-        <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown语法笔记</title>
     <url>/2018/12/27/markdown/</url>
     <content><![CDATA[<p>在这里简单记下 MD 的语法以备后续使用</p>
 <blockquote>
-<p>2020/03/31 根据 <span class="exturl" data-url="aHR0cHM6Ly9zcGVjLmNvbW1vbm1hcmsub3JnLzAuMjkv" title="https://spec.commonmark.org/0.29/">CommonMark Spec 0.29<i class="fa fa-external-link"></i></span> 更新</p>
+<p>2020/03/31 根据 <span class="exturl" data-url="aHR0cHM6Ly9zcGVjLmNvbW1vbm1hcmsub3JnLzAuMjkv">CommonMark Spec 0.29<i class="fa fa-external-link-alt"></i></span> 更新</p>
 </blockquote>
 <a id="more"></a>
 
@@ -126,6 +101,31 @@
       </tags>
   </entry>
   <entry>
+    <title>时隔多日的更新</title>
+    <url>/2018/10/07/update/</url>
+    <content><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><blockquote>
+<p>2020/03/31 Markdown重写</p>
+</blockquote>
+<ul>
+<li>修复了一些 Bug。</li>
+<li>这次更新在手机上完成了，<a id="more"></a>
+过程截图：</li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2018/10/15/iUX2QK.jpg" alt=""></p>
+<p>好了，就这样。</p>
+]]></content>
+      <tags>
+        <tag>Android</tag>
+        <tag>Termux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嗯……</title>
+    <url>/2018/07/05/update/</url>
+    <content><![CDATA[<p>@驴蹄子 嘿，能看到的话就好，代表网站在工作着。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>UTC 邮件客户端配置 - 安卓 - Gmail</title>
     <url>/2020/03/31/utcmail/</url>
     <content><![CDATA[<p>UTC 邮件客户端配置 - 安卓 - Gmail</p>
@@ -204,8 +204,8 @@
 <li><p>一、需要准备的东西</p>
 <ol>
 <li>一颗耐心，用来仔细阅读博文； </li>
-<li>安装<span class="exturl" data-url="aHR0cHM6Ly9mLWRyb2lkLm9yZy96aF9IYW5zLw==" title="https://f-droid.org/zh_Hans/">F-droid<i class="fa fa-external-link"></i></span>； </li>
-<li>下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>；</li>
+<li>安装<span class="exturl" data-url="aHR0cHM6Ly9mLWRyb2lkLm9yZy96aF9IYW5zLw==">F-droid<i class="fa fa-external-link-alt"></i></span>； </li>
+<li>下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==">BaiduPCS-Go<i class="fa fa-external-link-alt"></i></span>；</li>
 </ol>
 </li>
 </ul>
@@ -230,8 +230,8 @@ deb [trusted=yes] http://termux.iikira.com stable main</code></pre>
 <p>更新软件库和包；<br>最后输入：</p>
 <pre><code>termux-setup-storage</code></pre>
 
-<p>并确认，使我们可以访问手机内存，<br>即可将 Termux 配置完成。<br>更多使用方法参见：<span class="exturl" data-url="aHR0cHM6Ly90ZXJtdXguY29tLw==" title="https://termux.com/">Termux 官网<i class="fa fa-external-link"></i></span><br>vi/vim 的使用方法见：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9saW51eC9saW51eC12aW0uaHRtbA==" title="https://www.runoob.com/linux/linux-vim.html">菜鸟教程:vi/vim<i class="fa fa-external-link"></i></span></p>
-<p>2.安装<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==" title="https://github.com/iikira/BaiduPCS-Go">BaiduPCS-Go<i class="fa fa-external-link"></i></span>：</p>
+<p>并确认，使我们可以访问手机内存，<br>即可将 Termux 配置完成。<br>更多使用方法参见：<span class="exturl" data-url="aHR0cHM6Ly90ZXJtdXguY29tLw==">Termux 官网<i class="fa fa-external-link-alt"></i></span><br>vi/vim 的使用方法见：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9saW51eC9saW51eC12aW0uaHRtbA==">菜鸟教程:vi/vim<i class="fa fa-external-link-alt"></i></span></p>
+<p>2.安装<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hbw==">BaiduPCS-Go<i class="fa fa-external-link-alt"></i></span>：</p>
 <pre><code>apt install BaiduPCS-Go</code></pre>
 
 <p>遇到提示则输入“Y”并 Enter；<br>等待安装完成……</p>
@@ -257,7 +257,7 @@ dupan config set -cache_size=1024000</code></pre>
 <hr>
 四、基础使用
 
-<p>这里只介绍最基本的功能，剩余请向我提出更新要求或者<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hby9ibG9iL21hc3Rlci9SRUFETUUubWQjJUU1JTkxJUJEJUU0JUJCJUE0JUU1JTg4JTk3JUU4JUExJUE4JUU1JThGJThBJUU4JUFGJUI0JUU2JTk4JThF" title="https://github.com/iikira/BaiduPCS-Go/blob/master/README.md#%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8%E5%8F%8A%E8%AF%B4%E6%98%8E">看这里<i class="fa fa-external-link"></i></span></p>
+<p>这里只介绍最基本的功能，剩余请向我提出更新要求或者<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpa2lyYS9CYWlkdVBDUy1Hby9ibG9iL21hc3Rlci9SRUFETUUubWQjJUU1JTkxJUJEJUU0JUJCJUE0JUU1JTg4JTk3JUU4JUExJUE4JUU1JThGJThBJUU4JUFGJUI0JUU2JTk4JThF">看这里<i class="fa fa-external-link-alt"></i></span></p>
 <p>以命令</p>
 <pre><code>dupan</code></pre>
 
@@ -269,7 +269,7 @@ dupan config set -cache_size=1024000</code></pre>
 <p>执行：</p>
 <pre><code>web</code></pre>
 
-<p>在浏览器中访问<span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo4MDgw" title="http://localhost:8080">http://localhost:8080<i class="fa fa-external-link"></i></span>就可以使用（测试功能）了；</p>
+<p>在浏览器中访问<span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo4MDgw">http://localhost:8080<i class="fa fa-external-link-alt"></i></span>就可以使用（测试功能）了；</p>
 <p>使用“CTRL+C”可以退出程序，<br>或者在 cli 模式下输入</p>
 <pre><code>quit</code></pre>
 
