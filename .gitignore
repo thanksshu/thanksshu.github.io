@@ -1,7 +1,6 @@
-.DS_Store
-.idea/
-*.log
-*.iml
-yarn.lock
 package-lock.json
 node_modules/
+
+db.json
+public/
+*.code-workspace
