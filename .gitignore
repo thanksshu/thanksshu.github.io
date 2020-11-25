@@ -13,3 +13,5 @@ package-lock.json
 .nyc_output/
 coverage/
 .tmp*
+# Local Netlify folder
+.netlify
