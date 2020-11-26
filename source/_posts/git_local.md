@@ -71,7 +71,9 @@ hidden: true
 >
 > `HEAD~10` 回到十个版本之前
 
--   `checkout <文件名>` 情况复杂，可用`restore`替代
+-   `checkout <commit-ish>` *分离 HEAD*到某个 commit，不常用；其余使用情况复杂，不赘述
+
+    > 如要恢复 HEAD，重新`switch`（见[分支](note/git/branch)）到分支名即可
 
 -   `revert <commit>` 以提交一个新 commit 的形式，抵销变动直至与指定 commit 一致，要求**工作区**与现在**本地版本库**最新 commit 一致
 

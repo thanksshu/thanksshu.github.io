@@ -33,13 +33,15 @@ hidden: true
 
 ## 拉取
 
--   `fetch <代号> <refspec>` 从**上游版本库**下载，关于`refspec`，见()
+-   `fetch <代号> <refspec>` 从**上游版本库**下载，关于`refspec`，见[git 概念](note/git/basic#常用名词)
 -   `pull <代号> <refspec>` `fetch`然后`git merge <refspec>`
+-   `clone <repo>` 自动创建空**本地版本库**、添加**上游版本库**并作`pull`
 
 ## 推送
 
--   `clone <repo>` 自动创建空**本地版本库**、添加**上游版本库**并作`pull`
--   `push`
-    -   `<代号> <branch>` 向**上游版本库**分支推送，若不存在此分支则新建
-    -   `<代号> <branch>:<branch>` **上游版本库**分支与**本地版本库**分支名称不同的推送
-    -   `<代号> :<branch>` 向**上游版本库**分支推送空白
+-   `push <代号> <refspec>`
+    -   `-f` 不论是否有无关的历史，一律推送
+    -   `<refspec>`:
+        -   `<代号> <branch>` 向**上游版本库**分支推送，若不存在此分支则新建
+        -   `<代号> <branch>:<branch>` **上游版本库**分支与**本地版本库**分支名称不同的推送
+        -   `<代号> :<branch>` 向**上游版本库**分支推送空白

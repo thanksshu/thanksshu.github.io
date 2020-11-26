@@ -50,7 +50,9 @@ git 主要有：
 
 -   [`ref`](https://git-scm.com/book/en/v2/Git-Internals-Git-References)：以`refs/`开头的名称（e.g. `refs/heads/master`），指向一个`object`或另一个`ref`；存储在`.git/refs/`中
 
--   [`refspec`](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)：描述 local 与 remote 间的映射关系，格式：`<src>:<dst>`（e.g `refs/heads/master:refs/remotes/origin/master` ）
+-   [`refspec`](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)：描述 local 与 remote 间的映射关系，
+
+    如格式：`<src>:<dst>`，其中`<src>`与`:`可以省略，例见[push](note/git/remote#推送)
 
 ---
 
