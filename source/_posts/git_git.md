@@ -16,7 +16,7 @@ hidden: true
 
 # git 概念
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 1. [官网](https://git-scm.com/)
 

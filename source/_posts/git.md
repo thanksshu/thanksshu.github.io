@@ -11,7 +11,7 @@ categories:
 hidden: false
 date: 2020-11-26 22:30:13
 updated:
-permalink: note/git
+permalink: note/git/index
 ---
 
 # 笔记目录

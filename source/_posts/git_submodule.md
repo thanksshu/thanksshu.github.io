@@ -16,7 +16,7 @@ hidden: true
 
 # git 子模块
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 当在一个 repo 中使用了另外一个 repo 时，应使用 submodule
 

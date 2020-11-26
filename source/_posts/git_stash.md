@@ -16,7 +16,7 @@ hidden: true
 
 # git 存储库
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 stash 储存暂存区和工作区改动至存储库，然后丢弃暂存区和工作区变动
 

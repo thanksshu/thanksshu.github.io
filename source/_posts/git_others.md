@@ -16,7 +16,7 @@ hidden: true
 
 # git 其余操作
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 包含`如何使用别名`
 

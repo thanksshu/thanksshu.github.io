@@ -16,7 +16,7 @@ hidden: true
 
 # git 远程
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 与上游版本库交流，包含 `remote` `clone` `push` `fetch`等
 

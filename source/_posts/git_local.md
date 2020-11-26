@@ -16,7 +16,7 @@ hidden: true
 
 # git 本地
 
-[回到目录](/note/git)
+[回到笔记目录](/note/git/index)
 
 包含 `init` `add` `tag` `reset` `restore` 等
 
