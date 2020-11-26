@@ -16,6 +16,8 @@ hidden: true
 
 # git 大文件
 
+[回到目录](/note/git)
+
 git lfs 用于储存二进制文件
 
 <!-- more -->

@@ -16,6 +16,8 @@ hidden: true
 
 # git worktree
 
+[回到目录](/note/git)
+
 git 允许多个工作区同时存在，同时对多个分支进行编辑维护
 
 <!-- more -->
