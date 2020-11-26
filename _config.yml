@@ -9,7 +9,7 @@ description:
 keywords: 博客, 个人网站, Blog, 答谢韩书书, thanksshu
 author: thanksshu
 language:
-- zh-CN
+    - zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -34,29 +34,29 @@ new_post_name: :title:year:month:day.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: # Open external links in new tab
-  external_link.enable: true
-  external_link.field: site
-  external_link.exclude: []
+    external_link.enable: true
+    external_link.field: site
+    external_link.exclude: []
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
-  
+    enable: true
+    line_number: true
+    auto_detect: false
+    tab_replace:
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  
+    path: ""
+    per_page: 10
+    order_by: -date
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -82,18 +82,28 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
-  message:  
+    type:
+    repo:
+    branch:
+    message:
 
-#sitemap
+# sitemap
 sitemap:
     path: sitemap.xml
 
-#wordcount
+# wordcount
 symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
+    symbols: true
+    time: true
+    total_symbols: true
+    total_time: true
+
+# hexo-hide-posts
+hide_posts:
+    # Change the filter name to fit your need
+    filter: hidden
+    # Generators which you want to expose all posts (include hidden ones) to.
+    # Common generators: index, tag, category, archive, sitemap, feed, etc.
+    public_generators: [category, tag, sitemap]
+    # Add "noindex" meta tag to prevent hidden posts from being indexed by search engines
+    noindex: false
