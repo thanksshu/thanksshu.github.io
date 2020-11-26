@@ -10,7 +10,7 @@ categories:
     - RegExp
 date: 2020-04-08 20:24:34
 updated:
-permalink:
+permalink: /note/regex
 ---
 
 # 正则表达式

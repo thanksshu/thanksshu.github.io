@@ -13,4 +13,5 @@ categories:
 date: {{ date }}
 updated: {{ updated }}
 permalink:
+hidden: false
 ---

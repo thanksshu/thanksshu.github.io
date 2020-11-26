@@ -10,7 +10,8 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink:
+permalink: note/git/stash
+hidden: true
 ---
 
 # git 存储库

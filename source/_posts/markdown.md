@@ -9,7 +9,7 @@ categories:
     - Markdown
 date: 2018-12-27 16:56:03
 updated:
-permalink:
+permalink: /note/md
 ---
 
 在这里简单记下 MD 的语法以备后续使用

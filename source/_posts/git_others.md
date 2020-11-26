@@ -10,7 +10,8 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink:
+permalink: note/git/others
+hidden: true
 ---
 
 # git 其余操作

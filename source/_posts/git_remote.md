@@ -10,7 +10,8 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink:
+permalink: note/git/remote
+hidden: true
 ---
 
 # git 远程
@@ -32,7 +33,7 @@ permalink:
 
 ## 拉取
 
--   `fetch <代号> <refspec>` 从**上游版本库**下载，refspec 为某 commit 位置
+-   `fetch <代号> <refspec>` 从**上游版本库**下载，关于`refspec`，见()
 -   `pull <代号> <refspec>` `fetch`然后`git merge <refspec>`
 
 ## 推送

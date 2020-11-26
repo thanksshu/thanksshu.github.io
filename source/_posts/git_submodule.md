@@ -10,7 +10,8 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink:
+permalink: note/git/submodule
+hidden: true
 ---
 
 # git 子模块
