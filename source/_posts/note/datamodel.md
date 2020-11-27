@@ -3,10 +3,11 @@ title: 数据模型
 layout: post
 comments: true
 tags:
-categories:
     - MCD
     - MLD
     - 物理数据模型
+categories:
+    - 笔记
 hidden: false
 date: 2020-11-28 22:30:13
 updated:
