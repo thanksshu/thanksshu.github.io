@@ -1,17 +1,13 @@
-db.json
-public/
-
 *.code-workspace
 
+# hexo
 .DS_Store
-node_modules/
-tmp/
+Thumbs.db
+db.json
 *.log
-.idea/
-yarn.lock
-package-lock.json
-.nyc_output/
-coverage/
-.tmp*
+node_modules/
+public/
+.deploy*/
+
 # Local Netlify folder
 .netlify
