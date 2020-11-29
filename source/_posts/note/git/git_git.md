@@ -28,6 +28,10 @@ hidden: true
 
 ## 基本概念 [手册链接](https://git-scm.com/docs/gitglossary.html)
 
+### 命令
+
+- git 命令行使用 '--' 来分隔版本和路径
+
 ### 存储区
 
 git 主要有：

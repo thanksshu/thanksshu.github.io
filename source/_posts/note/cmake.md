@@ -39,6 +39,17 @@ permalink: note/cmake
 
 ## [CMakeLists.txt](https://cmake.org/cmake/help/v3.19/manual/cmake-commands.7.html)
 
+```
+.
+├── CMakeLists.txt
+├── src
+│   ├── a.c
+│   └── b.c
+└── include
+    ├── a.h
+    └── b.h
+```
+
 ```cmake
 cmake_minimum_required(VERSION 3.10)
 
@@ -46,36 +57,75 @@ cmake_minimum_required(VERSION 3.10)
 project(Tutorial)
 
 # 生成目标
-add_executable(Tutorial tutorial.c tuto.c)
+add_executable(Tutorial src/a.c src/b.c include/a.h include/b.h)
 
 # 链接库
 target_link_libraries(Tutorial PUBLIC m)
 
 # 链接头文件
-target_include_directories(Tutorial PUBLIC tuto.h)
+target_include_directories(Tutorial PUBLIC include/)
 ```
 
 -   变量使用 `${...}` 访问
 
 ### 基本命令
 
-#### set
+命令存在作用域，一般会以前缀方式表示，尽量避免全局函数
+
+#### 定义变量与属性
+
+注意：变量是存在作用域的
+
+-   定义变量
 
 ```cmake
 set(<variable> <value>... [PARENT_SCOPE])
 ```
 
-#### file
+-   定义布尔变量
 
 ```cmake
-file({GLOB | GLOB_RECURSE} <out-var> [...] [<globbing-expr>...])
+option(<variable> "<help_text>" [value])
 ```
 
-将 `<globbing-expr>` 匹配内容列表存储到 `<out-var>` 中
+-   定义对象属性
+
+```cmake
+set_property(<GLOBAL                      |
+              DIRECTORY [<dir>]           |
+              TARGET    [<target1> ...]   |
+              SOURCE    [<src1> ...]
+                        [DIRECTORY <dirs> ...] |
+                        [TARGET_DIRECTORY <targets> ...]
+              INSTALL   [<file1> ...]     |
+              TEST      [<test1> ...]     |
+              CACHE     [<entry1> ...]    >
+             [APPEND] [APPEND_STRING]
+             PROPERTY <name> [<value1> ...])
+```
+
+#### file
+
+1. 将 `<globbing-expr>` 匹配内容列表存储到 `<variable>` 中
+
+```cmake
+file(GLOB <variable>
+     [LIST_DIRECTORIES true|false] [RELATIVE <path>] [CONFIGURE_DEPENDS]
+     [<globbing-expressions>...])
+file(GLOB_RECURSE <variable> [FOLLOW_SYMLINKS]
+     [LIST_DIRECTORIES true|false] [RELATIVE <path>] [CONFIGURE_DEPENDS]
+     [<globbing-expressions>...])
+```
+
+-   `CONFIGURE_DEPENDS` 会使编译工具在构建时重新读取`variable`
 
 ### 项目命令
 
+只能在 CMake 项目内使用
+
 #### project
+
+1. 定义项目名及属性
 
 ```cmake
 project(<PROJECT-NAME> [<language-name>...])
@@ -87,7 +137,24 @@ project(<PROJECT-NAME>
         [LANGUAGES <language-name>...])
 ```
 
-Supported languages include C, CXX (i.e. C++), CUDA, OBJC (i.e. Objective-C), OBJCXX, Fortran, ISPC, and ASM. By default C and CXX are enabled if no language options are given. Specify language NONE, or use the LANGUAGES keyword and list no languages, to skip enabling any languages.
+#### 定义二进制目标（target）
+
+1. 可执行文件
+
+```cmake
+add_executable(<name> [WIN32] [MACOSX_BUNDLE]
+               [EXCLUDE_FROM_ALL]
+               [source1] [source2 ...])
+```
+- `source` 应包含头文件
+
+2. 库
+
+```cmake
+add_library(<name> [STATIC | SHARED | MODULE]
+            [EXCLUDE_FROM_ALL]
+            [<source>...])
+```
 
 #### target\_\*
 
@@ -117,24 +184,25 @@ target_include_directories(<target>
 
 -   `PUBLIC`：公有，等于前二者并集
 
-### [常用变量](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
+### [变量](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
 
--   `EXECUTABLE_OUTPUT_PATH`、`LIBRARY_OUTPUT_PATH`：最终编译结果的二进制执行文件、库文件的存放目录，可`set`值
-
--   `CMAKE_BUILD_TYPE`：目标构建类型，可`set`值：`Debug`，`Release`，`RelWithDebInfo`，`MinSizeRel`等
-
--   `CMAKE_SYSTEM_NAME`：目标系统，可`set`值：`uname -s`返回值等
-
--   `CMAKE_SYSTEM_PROCESSOR` 目标构架，可`set`值：`uname -m`返回值等
-
--   `CMAKE_<LANG>_COMPILER` 指定语言编译器，可`set`值：编译器路径
-
--   `CMAKE_C_COMPILER_TARGET` 对支持指定编译目标的系统传入目标，例：对于 clang 编译器`set(CMAKE_C_COMPILER_TARGET arm-linux-gnueabihf)`
+变量一般是全局的、cmake 预设或者用户定义的
 
 -   `ENV{NAME}`: 环境变量，可`set`值
 
--   `CMAKE_BINARY_DIR`、`PROJECT_BINARY_DIR`、`<projectname>\_BINARY_DIR`：工程编译发生的目录
--   `CMAKE_SOURCE_DIR`、`PROJECT_SOURCE_DIR`、`<projectname>\_SOURCE_DIR`: 工程顶层目录
+-   `CMAKE_BUILD_TYPE`：目标构建类型
+
+-   `CMAKE_SYSTEM_NAME`：目标系统
+
+-   `CMAKE_SYSTEM_PROCESSOR` 目标构架
+
+-   `CMAKE_<LANG>_COMPILER` 指定语言编译器
+
+-   `CMAKE_C_COMPILER_TARGET` 对支持指定编译目标的系统传入目标
+
+-   `CMAKE_BINARY_DIR`、`PROJECT_BINARY_DIR`、`<projectname>_BINARY_DIR`：工程编译发生的目录
+
+-   `CMAKE_SOURCE_DIR`、`PROJECT_SOURCE_DIR`、`<projectname>_SOURCE_DIR`: 工程顶层目录
 
 -   `CMAKE_CURRENT_SOURCE_DIR`: 当前处理的 CMakeLists.txt 所在路径
 
@@ -146,6 +214,16 @@ target_include_directories(<target>
 
 -   `CMAKE_SYSTEM_PROCESSOR`： 处理器名称,比如 i686.
 
--   `UNIX`： 在所有的类 UNIX 平台为 TRUE,包括 OS X 和 cygwin
+### [属性](https://cmake.org/cmake/help/v3.19/manual/cmake-properties.7.html)
 
--   `WIN32：在所有`的 win32 平台为 TRUE,包括 cygwin
+`GLOBAL`、`DIRECTORY`、`TARGET`等对象的属性
+
+#### TARGET
+
+-   `LIBRARY_OUTPUT_DIRECTORY` 库输出路径
+-   `LIBRARY_OUTPUT_NAME` 库名称
+-   `RUNTIME_OUTPUT_DIRECTORY` 最终二进制可执行文件输出目录
+-   `RUNTIME_NAME_DIRECTORY` 可执行文件名称
+
+-   `C_STANDARD` C 语言标准
+-   `CXX_STANDARD` C++语言标准

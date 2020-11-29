@@ -106,7 +106,7 @@ permalink: note/c/type
         -   常量
             -   `2.3`
 
-```python
+```c
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
@@ -238,7 +238,7 @@ int main(int argc, char *argv[]) {
 -   `%X` 使用十六进制数字 0xf 的无符号十六进制整数
 -   `%%` 打印一个百分号
 
-```python
+```c
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
@@ -263,6 +263,21 @@ int main(int argc, char *argv[]) {
     5 0 0 0
     d
     A
+
+### `char a[] = "string";` 与 `char *p = "string";`
+
+内存中：
+
+```
+     +---+---+---+---+---+---+----+
+  a: | s | t | r | i | n | g | \0 |
+     +---+---+---+---+---+---+----+
+     +-----+     +---+---+---+---+---+---+---+
+  p: |  *======> | s | t | r | i | n | g |\0 |
+     +-----+     +---+---+---+---+---+---+---+
+```
+
+对于`p`其`string\0`为常量，不可修改，如果要创建可修改字符串，使用`*alloc()`
 
 ## 结构体
 
