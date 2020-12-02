@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 10:50:00
 updated:
-permalink: note/c/preprocess
+permalink: /note/c/preprocess
 ---
 
 # 预处理
 
-[笔记索引](note/c/index)
+[笔记索引](/note/c/index)
 
 -   #define
 

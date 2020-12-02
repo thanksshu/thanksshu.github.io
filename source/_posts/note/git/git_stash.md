@@ -10,7 +10,7 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink: note/git/stash
+permalink: /note/git/stash
 hidden: true
 ---
 

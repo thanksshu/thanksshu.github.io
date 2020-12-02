@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 10:50:00
 updated:
-permalink: note/c/operator
+permalink: /note/c/operator
 ---
 
 # 运算符
 
-[笔记索引](note/c/index)
+[笔记索引](/note/c/index)
 
 （按优先级顺序排列）
 （关联性即运行顺序）

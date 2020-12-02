@@ -10,10 +10,10 @@ categories:
 hidden: true
 date: 2020-11-27 17:45:00
 updated:
-permalink: note/js/web-api
+permalink: /note/js/web-api
 ---
 
-[笔记索引](note/js/index)
+[笔记索引](/note/js/index)
 
 # Web API
 

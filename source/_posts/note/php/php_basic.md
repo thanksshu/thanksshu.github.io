@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/basic
+permalink: /note/php/basic
 ---
 
 # 基础概念
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 -   从 HTML 模式进入 PHP 模式
 

@@ -10,7 +10,7 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink: note/git/remote
+permalink: /note/git/remote
 hidden: true
 ---
 
@@ -35,7 +35,7 @@ hidden: true
 
 ## 拉取
 
--   `fetch <代号> <refspec>` 从**上游版本库**下载，关于`refspec`，见[git 概念](note/git/basic#常用名词)
+-   `fetch <代号> <refspec>` 从**上游版本库**下载，关于`refspec`，见[git 概念](/note/git/basic#常用名词)
 -   `pull <代号> <refspec>` `fetch`然后`git merge <refspec>`
 -   `clone <repo>` 自动创建空**本地版本库**、添加**上游版本库**并作`pull`
 

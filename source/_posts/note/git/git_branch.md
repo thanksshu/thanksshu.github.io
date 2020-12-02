@@ -10,7 +10,7 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink: note/git/branch
+permalink: /note/git/branch
 hidden: true
 ---
 
@@ -45,6 +45,5 @@ hidden: true
     -   `--no-commit` 只合并不提交
     -   `--allow-unrelated-histories` 允许合并无关的历史
 -   `mergetool` 在 merge 后调用文本编辑工具进行比对选择
--   `rebase <upstream>` rebase 分支
-    -   `-i` 交互式 rebase
+-   `rebase <branch>` rebase 分支，会改写历史，较危险
 -   `cherry-pick <commit>` cherry-pick 分支

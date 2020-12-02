@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/namespace
+permalink: /note/php/namespace
 ---
 
 # 命名空间 （PHP 5.3）
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 类（包括抽象类和 traits）、接口、函数和常量 收到到命名空间影响，
 

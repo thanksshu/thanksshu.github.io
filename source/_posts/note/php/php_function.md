@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/function
+permalink: /note/php/function
 ---
 
 # 函数
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 ```PHP
 <?php

@@ -11,7 +11,7 @@ categories:
 hidden: false
 date: 2020-11-27 13:10:00
 updated:
-permalink: note/architectural-pattern
+permalink: /note/architectural-pattern
 ---
 
 # 软件构架

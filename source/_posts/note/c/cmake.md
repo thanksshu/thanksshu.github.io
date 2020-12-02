@@ -7,12 +7,14 @@ tags:
     - CMake
 categories:
     - - 笔记
-      - CMake
+      - C
 hidden: false
 date: 2020-11-27 10:50:00
 updated:
-permalink: note/cmake
+permalink: /note/c/cmake
 ---
+
+[笔记索引](/note/c/index)
 
 # CMake 简单使用
 
@@ -146,7 +148,8 @@ add_executable(<name> [WIN32] [MACOSX_BUNDLE]
                [EXCLUDE_FROM_ALL]
                [source1] [source2 ...])
 ```
-- `source` 应包含头文件
+
+-   `source` 应包含头文件
 
 2. 库
 

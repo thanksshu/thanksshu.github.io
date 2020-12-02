@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/constant
+permalink: /note/php/constant
 ---
 
 # 常量
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 -   常量前面没有美元符号 `echo CONSTANT;`
 

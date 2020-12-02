@@ -10,7 +10,7 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink: note/git/basic
+permalink: /note/git/basic
 hidden: true
 ---
 
@@ -58,7 +58,7 @@ git 主要有：
 
 -   [`refspec`](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)：描述 local 与 remote 间的映射关系，
 
-    如格式：`<src>:<dst>`，其中`<src>`与`:`可以省略，例见[push](note/git/remote#推送)
+    如格式：`<src>:<dst>`，其中`<src>`与`:`可以省略，例见[push](/note/git/remote#推送)
 
 ---
 

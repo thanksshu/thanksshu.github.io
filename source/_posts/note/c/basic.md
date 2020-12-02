@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 10:50:00
 updated:
-permalink: note/c/basic
+permalink: /note/c/basic
 ---
 
 # C 代码结构
 
-[笔记索引](note/c/index)
+[笔记索引](/note/c/index)
 
 ```c
 #include <stdio.h> // 加载头文件

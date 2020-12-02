@@ -10,10 +10,10 @@ categories:
 hidden: false
 date: 2020-11-27 13:00:00
 updated:
-permalink: note/js/note
+permalink: /note/js/note
 ---
 
-[笔记索引](note/js/index)
+[笔记索引](/note/js/index)
 
 # javascript 笔记
 

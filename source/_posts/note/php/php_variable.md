@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/variable
+permalink: /note/php/variable
 ---
 
 # PHP 变量
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 -   传值赋值：`$a = 1;`
 

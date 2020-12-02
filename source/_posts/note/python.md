@@ -10,7 +10,7 @@ categories:
 hidden: false
 date: 2020-11-27 12:40:00
 updated:
-permalink: note/python
+permalink: /note/python
 ---
 
 # Python 笔记

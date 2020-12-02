@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 10:50:00
 updated:
-permalink: note/c/compile
+permalink: /note/c/compile
 ---
 
 # 编译流程
 
-[笔记索引](note/c/index)
+[笔记索引](/note/c/index)
 
 编译一般可以分为三个阶段：
 

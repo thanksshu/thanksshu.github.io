@@ -10,7 +10,7 @@ categories:
     - Git
 date: 2020-11-26 12:00:00
 updated:
-permalink: note/git/local
+permalink: /note/git/local
 hidden: true
 ---
 
@@ -29,6 +29,8 @@ hidden: true
     -   `-i` 进行交互式操作
     -   `-n` 预演，不真正添加
     -   `-f` 强行添加，能够添加被忽略文件
+
+    ***
 
     -   ` .` 添加*更改、添加、删除*变动
     -   `-u` 添加全部*更改、删除*变动，无*添加*
@@ -50,7 +52,7 @@ hidden: true
 
 -   `commit` 提交**暂存区**到**本地版本库**
 
-    -   `--amend` 改写方才的提交说明
+    -   `--amend` 改写方才的提交
     -   `[-m 'msg']` 提交说明
     -   `-a` 自动添加**工作区**变动到**暂存区**并提交至版本库
 
@@ -60,6 +62,9 @@ hidden: true
     `-m <msg>` 为标签添加信息
     `--file <file>` 从文件读取待添加信息
     `-e` 编辑消息
+
+-   `rebase <commit-ish>` rebase commit
+    -   `-i` 交互式 rebase，功能强大
 
 ## 恢复版本
 
@@ -75,7 +80,7 @@ hidden: true
 
 -   `checkout <commit-ish>` *分离 HEAD*到某个 commit，不常用；其余使用情况复杂，不赘述
 
-    > 如要恢复 HEAD，重新`switch`（见[分支](note/git/branch)）到分支名即可
+    > 如要恢复 HEAD，重新`switch`（见[分支](/note/git/branch)）到分支名即可
 
 -   `revert <commit>` 以提交一个新 commit 的形式，抵销变动直至与指定 commit 一致，要求**工作区**与现在**本地版本库**最新 commit 一致
 

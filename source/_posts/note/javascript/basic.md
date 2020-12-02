@@ -10,10 +10,10 @@ categories:
 hidden: true
 date: 2020-11-27 17:45:00
 updated:
-permalink: note/js/basic
+permalink: /note/js/basic
 ---
 
-[笔记索引](note/js/index)
+[笔记索引](/note/js/index)
 
 # js 基础
 

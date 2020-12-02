@@ -10,12 +10,12 @@ categories:
 hidden: true
 date: 2020-11-27 12:00:00
 updated:
-permalink: note/php/statement
+permalink: /note/php/statement
 ---
 
 # 语句
 
-[回到笔记索引](note/php/index)
+[回到笔记索引](/note/php/index)
 
 ## Declare
 
