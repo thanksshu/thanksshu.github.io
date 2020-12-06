@@ -68,7 +68,7 @@ hidden: true
 
 ## 恢复版本
 
-(处理一团乱麻的建议)[http://justinhileman.info/article/git-pretty/git-pretty.png]
+[当项目有如一团乱麻时的建议](http://justinhileman.info/article/git-pretty/git-pretty.png)
 
 > `<commit>` 相对位置举例：
 >
@@ -96,18 +96,29 @@ hidden: true
 
     默认丢弃**工作区**变动，采用**暂存区**版本
 
-    -   `--source=<commit>` 采用**本地版本库**的一个版本
+    -   `--source=<tree>` 采用**本地版本库**的一个版本
     -   `--staged` 丢弃**暂存区**变动，采用**本地版本库**的一个版本
     -   `--worktree` 丢弃**工作区**变动，采用**本地版本库**的一个版本
 
 ## 查看版本
 
--   `log` 查看**本地版本库**commit 历史
+-   `log [<options>] [<revision range>] [[--] <path>…​]` 查看**本地版本库** commit 日志
 
     -   `-p` 详细模式
     -   `--graph` 使用树状图示
     -   `--all` 显示全部分支
-    -   `--oneline` 简化单个 commit 信息
+
+    -   `--format=<format>` `<format>`可以为 `oneline`、`short`、`medium`（默认）、`full`、`fuller`、`reference`、`email`、`raw`、`format:<string>`、`tformat:<string>`
+        - `<string>` 格式化format，详见官网
+    -   `--oneline` 简化单个 commit 信息，为`--format`的一个简写
+
+    ***
+
+    -   `<revision range>`
+
+        -   `<commit1>..<commit2>` 双点等同于 `^<commit1> <commit2>` 其中 `^` 代表不显示
+
+        -   `<commit1>...<commit2>` 三点表示仅显示二者不同的部分（A...B == A..B + B..A）
 
 -   `reflog` 本地操作历史，如果有时日不长的误操作，可从此撤销
 

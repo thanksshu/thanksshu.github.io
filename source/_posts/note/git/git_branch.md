@@ -46,4 +46,10 @@ hidden: true
     -   `--allow-unrelated-histories` 允许合并无关的历史
 -   `mergetool` 在 merge 后调用文本编辑工具进行比对选择
 -   `rebase <branch>` rebase 分支，会改写历史，较危险
--   `cherry-pick <commit>` cherry-pick 分支
+-   `cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] [--ff][-S[<keyid>]] <commit>…​`
+
+    ` cherry-pick (--continue | --skip | --abort | --quit)`
+    cherry-pick 分支
+
+    -   `-e` 编辑 commit message
+    -   `-x`　当从公开项目 `cherry-pick` 时推荐使用，私有项目不建议

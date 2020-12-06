@@ -25,4 +25,4 @@ permalink: /note/git/index
 6. [存储库](/note/git/stash)
 7. [LFS](/note/git/lfs)
 8. [commit规范](/note/git/conventional-commits)
-8. [其他](/note/git/others)
+8. [设置及其他](/note/git/others)

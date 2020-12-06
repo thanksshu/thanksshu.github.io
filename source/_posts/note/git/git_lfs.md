@@ -25,77 +25,76 @@ git lfs 用于储存二进制文件
 ## 常用命令
 
 -   `git lfs version`:
-    Report the version number.
+    版本号
 
 ---
 
 -   `git lfs track <path>`:
-    View or add Git LFS paths to Git attributes.
+    添加到 .gitattributes
 -   `git lfs untrack <path>`:
-    Remove Git LFS paths from Git Attributes.
+    移除
 
 ---
 
 -   `git lfs dedup`:
-    De-duplicate Git LFS files.
+    删除重复 LFS 项
 
 ---
 
 -   `git lfs push`:
-    Push queued large files to the Git LFS endpoint.
+    推送 LFS 项至上游
 -   `git lfs fetch`:
-    Download Git LFS files from a remote.
+    下载
 -   `git lfs pull`:
-    Fetch Git LFS changes from the remote & checkout any required working tree
-    files.
+    下载并`checkout`相应版本
 
 ---
 
 -   `git lfs install`:
-    Install Git LFS configuration.
+    全局安装 LFS
 -   `git lfs uninstall`:
-    Uninstall Git LFS by removing hooks and smudge/clean filter configuration.
+    全局卸除 LFS
 
 ---
 
 -   `git lfs lock`:
-    Set a file as "locked" on the Git LFS server.
+    锁定一个文件
 -   `git lfs unlock`:
-    Remove "locked" setting for a file on the Git LFS server.
+    解锁
 -   `git lfs locks`:
-    List currently "locked" files from the Git LFS server.
+    查看锁定
 
 -   `git lfs migrate`:
-    Migrate history to or from Git LFS
+    将项目转移至 LFS
 
 ---
 
 -   `git lfs status`:
-    Show the status of Git LFS files in the working tree.
+    查看工作树中 LFS 项状态
 -   `git lfs ls-files`:
-    Show information about Git LFS files in the index and working tree.
+    查看工作树及暂存区中 LFS 项状态
 
-## Examples
+## 简单工作流
 
-To get started with Git LFS, the following commands can be used.
+1.  全局安装:
+    ```sh
+    git lfs install
+    ```
+2.  添加文件:
+    ```sh
+    git lfs track "*.iso"
+    ```
+3.  暂存`.gitattributes`:
+    ```sh
+    git add .gitattributes
+    ```
+4.  提交:
+    ```sh
+    git add file.iso
+    git commit -m "Add disk image"
+    git push
+    ```
 
-1.  Setup Git LFS on your system. You only have to do this once per
-    repository per machine:
+## .lfsconfig
 
-        git lfs install
-
-2.  Choose the type of files you want to track, for examples all ISO
-    images, with git lfs track:
-
-        git lfs track "*.iso"
-
-3.  The above stores this information in gitattributes(5) files, so
-    that file need to be added to the repository:
-
-        git add .gitattributes
-
-4.  Commit, push and work with the files normally:
-
-        git add file.iso
-        git commit -m "Add disk image"
-        git push
+[文档](https://github.com/git-lfs/git-lfs/blob/master/docs/man/git-lfs-config.5.ronn)
